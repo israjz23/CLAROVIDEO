@@ -14,8 +14,8 @@ exports.config = {
     Playwright: {
       browser: 'chromium',
       url: 'http://clarovideo.com',
-      show: false,
-      headless: true
+      show: true,
+      headless: false
     }
   },
   include: {
