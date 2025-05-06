@@ -2,6 +2,7 @@ const { I } = inject();
 const assert = require('assert');
 
 class ClaroPage {
+
   loginButton = '//button[@id="btn_starts_ld"]';
   emailField = '//input[@id="emailLogin"]';
   submitEmail =  '//button[@id="submitEmail"]';
@@ -34,7 +35,6 @@ class ClaroPage {
     I.wait(5);
   }
   
-
   seeProfilePage() {
     I.waitForElement(this.profilePage, 10);
     I.see('Administrador');
@@ -83,7 +83,7 @@ class ClaroPage {
     });
  }
 
- sub(serieName) {
+  sub(serieName) {
   I.waitForElement(this.imgSearch, 10);
   I.click(this.imgSearch);
   I.waitForElement(this.searchField, 10);
@@ -96,10 +96,10 @@ class ClaroPage {
   I.wait(3);
  }
 
- validateSub() {
+  validateSub() {
   I.seeElement(this.btnPrueba); 
   I.see('PRUEBA 30 DÍAS SIN COSTO', this.btnPrueba); 
-}
+ }
 };
 
 module.exports = new ClaroPage();

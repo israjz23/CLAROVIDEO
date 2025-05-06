@@ -9,7 +9,7 @@ Feature: Validaciones en Claro Video
   Examples:
       | email                      | password       | resultado                                |
       | israeljaimeqc@gmail.com    | Qc123456       | debe acceder a su cuenta y ver su perfil |
-      | israeljaimeqc@gmail.com    | 123456         | mensaje de error |
+      | israeljaimeqc@gmail.com    | 123456         | mensaje de error                         |
 
   @movie
   Scenario: Buscar una pelicula 

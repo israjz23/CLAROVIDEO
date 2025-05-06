@@ -18,9 +18,11 @@ exports.config = {
       headless: true
     }
   },
+
   include: {
     I: './steps_file.js'
   },
+
   gherkin: {
     features: "./features/*.feature",
     steps: "./steps/claroSteps.js",
@@ -30,6 +32,6 @@ exports.config = {
     require: "allure-codeceptjs",
     outputDir: 'output'
   },
-
+  
   name: 'clarovideo'
 }
