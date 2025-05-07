@@ -49,15 +49,15 @@ jobs:
         uses: actions/checkout@v3
         if: always()
         with:
-          ref: main
-          path: main
+          ref: gh-pages
+          path: gh-pages
 
       - name: Generar reporte de Allure
         uses: simple-elf/allure-report-action@v1.6
         if: always()
         with:
           allure_results: allure-results
-          allure_history: main
+          allure_history: gh-pages
           allure_report: allure-history
 
       - name: Deploy report to Github Pages
