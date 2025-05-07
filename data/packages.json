@@ -1,5 +1,74 @@
 {
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
-  "children" : [ ],
+  "children" : [ {
+    "name" : "features.claroVideo.feature",
+    "children" : [ {
+      "name" : "Iniciar sesion en Claro Video {\"email\":\"israeljaimeqc@gmail.com\",\"password\":\"Qc123456\",\"resultado\":\"debe acceder a su cuenta y ver su perfil\"} @login",
+      "uid" : "9068801c77c9e66c",
+      "parentUid" : "fd768f4553532e172fbede8088de475b",
+      "status" : "broken",
+      "time" : {
+        "start" : 1746643829322,
+        "stop" : 1746643852352,
+        "duration" : 23030
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Iniciar sesion en Claro Video {\"email\":\"israeljaimeqc@gmail.com\",\"password\":\"123456\",\"resultado\":\"mensaje de error\"} @login",
+      "uid" : "a4da794d6598aff2",
+      "parentUid" : "fd768f4553532e172fbede8088de475b",
+      "status" : "broken",
+      "time" : {
+        "start" : 1746643852367,
+        "stop" : 1746643874514,
+        "duration" : 22147
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Buscar una pelicula @movie",
+      "uid" : "36f9aaed4a0802af",
+      "parentUid" : "fd768f4553532e172fbede8088de475b",
+      "status" : "broken",
+      "time" : {
+        "start" : 1746643874527,
+        "stop" : 1746643886647,
+        "duration" : 12120
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Reproducir un canal @canal",
+      "uid" : "3a6ab8699033a125",
+      "parentUid" : "fd768f4553532e172fbede8088de475b",
+      "status" : "broken",
+      "time" : {
+        "start" : 1746643886659,
+        "stop" : 1746643898547,
+        "duration" : 11888
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Validar suscripcion @sub",
+      "uid" : "b72eb191b4d50fc7",
+      "parentUid" : "fd768f4553532e172fbede8088de475b",
+      "status" : "broken",
+      "time" : {
+        "start" : 1746643898560,
+        "stop" : 1746643909646,
+        "duration" : 11086
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "features.claroVideo.feature"
+  } ],
   "name" : "packages"
 }

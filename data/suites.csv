@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Wed May 07 18:50:29 GMT 2025","Wed May 07 18:50:52 GMT 2025","23030","Validaciones en Claro Video","","","","","Iniciar sesion en Claro Video {""email"":""israeljaimeqc@gmail.com"",""password"":""Qc123456"",""resultado"":""debe acceder a su cuenta y ver su perfil""} @login",""
+"broken","Wed May 07 18:51:14 GMT 2025","Wed May 07 18:51:26 GMT 2025","12120","Validaciones en Claro Video","","","","","Buscar una pelicula @movie",""
+"broken","Wed May 07 18:50:52 GMT 2025","Wed May 07 18:51:14 GMT 2025","22147","Validaciones en Claro Video","","","","","Iniciar sesion en Claro Video {""email"":""israeljaimeqc@gmail.com"",""password"":""123456"",""resultado"":""mensaje de error""} @login",""
+"broken","Wed May 07 18:51:26 GMT 2025","Wed May 07 18:51:38 GMT 2025","11888","Validaciones en Claro Video","","","","","Reproducir un canal @canal",""
+"broken","Wed May 07 18:51:38 GMT 2025","Wed May 07 18:51:49 GMT 2025","11086","Validaciones en Claro Video","","","","","Validar suscripcion @sub",""

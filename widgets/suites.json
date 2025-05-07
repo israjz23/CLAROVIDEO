@@ -1,4 +1,15 @@
 {
-  "total" : 0,
-  "items" : [ ]
+  "total" : 1,
+  "items" : [ {
+    "uid" : "0e148ee59d0f323d3aa42b5e950e99b2",
+    "name" : "Validaciones en Claro Video",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 5,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 5
+    }
+  } ]
 }
