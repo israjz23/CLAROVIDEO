@@ -27,12 +27,14 @@ exports.config = {
     features: "./features/*.feature",
     steps: "./steps/claroSteps.js",
   },
-  
-  allure: {
-    enabled: true,
-    require: "allure-codeceptjs",
-    outputDir: "output",
-  },
 
+  plugins: {
+    allure: {
+      enabled: true,
+      require: "allure-codeceptjs",
+      resultsDir: "allure-results",
+    },
+  }, 
+  
   name: "clarovideo",
 };
