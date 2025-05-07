@@ -23,8 +23,8 @@ Feature: Validaciones en Claro Video
     When voy a canales
     Then deberia ver el canal
  
- @sub
-  Scenario: Validar suscripcion
-    Given estoy en la pagina principal
-    When busco "Tortugas Ninja"
-    Then deberia solicitarme suscribirme
+  @sub
+    Scenario: Validar suscripcion
+      Given estoy en la pagina principal
+      When busco "Tortugas Ninja"
+      Then deberia solicitarme suscribirme

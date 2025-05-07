@@ -27,6 +27,7 @@ exports.config = {
     features: "./features/*.feature",
     steps: "./steps/claroSteps.js",
   },
+  
   allure: {
     enabled: true,
     require: "allure-codeceptjs",

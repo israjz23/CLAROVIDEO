@@ -18,6 +18,9 @@ jobs:
       - name: Instalar dependencias
         run: npm ci
 
+      - name: Install Allure CLI
+        run: npm install -g allure-commandline --save-dev
+
       - name: Instalar navegadores de Playwright
         run: npx playwright install --with-deps
 
@@ -33,4 +36,33 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: reporte-allure
-          path: allure-report
+          path: output/allure-report
+       
+      - name: Desplegar reporte en GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          personal_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: output/allure-report
+          publish_branch: gh-pages
+
+      - name: Get Allure history
+        uses: actions/checkout@v3
+        if: always()
+        with:
+          ref: gh-pages
+          path: gh-pages
+
+      - name: Generar reporte de Allure
+        uses: simple-elf/allure-report-action@v1.6
+        if: always()
+        with:
+          allure_results: allure-results
+          allure_history: gh-pages
+          allure_report: allure-history
+
+      - name: Deploy report to Github Pages
+        if: always()
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: allure-history
