@@ -43,21 +43,21 @@ jobs:
         with:
           personal_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: output/allure-report
-          publish_branch: gh-pages
+          publish_branch: main
 
       - name: Get Allure history
         uses: actions/checkout@v3
         if: always()
         with:
-          ref: gh-pages
-          path: gh-pages
+          ref: main
+          path: main
 
       - name: Generar reporte de Allure
         uses: simple-elf/allure-report-action@v1.6
         if: always()
         with:
           allure_results: allure-results
-          allure_history: gh-pages
+          allure_history: main
           allure_report: allure-history
 
       - name: Deploy report to Github Pages
