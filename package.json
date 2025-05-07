@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "features": "codeceptjs run --features",
+    "features" : "codeceptjs run --features --pluggins allure",
     "allure:generate": "allure generate output --clean",
     "allure:report": "allure open"
   },
