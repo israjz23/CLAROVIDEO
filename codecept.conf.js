@@ -15,6 +15,7 @@ exports.config = {
       browser: "chromium",
       url: "http://clarovideo.com",
       show: false,
+      trace: true,
       windowSize: "1280x720",
     },
   },
@@ -34,7 +35,7 @@ exports.config = {
       require: "allure-codeceptjs",
       resultsDir: "allure-results",
     },
-  }, 
-  
+  },
+
   name: "clarovideo",
 };
