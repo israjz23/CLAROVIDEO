@@ -1,12 +1,12 @@
 {
-  "uid" : "36f9aaed4a0802af",
+  "uid" : "80c553018ed26e8c",
   "name" : "Buscar una pelicula @movie",
   "fullName" : "features/claroVideo.feature: Validaciones en Claro Video > Buscar una pelicula @movie",
   "historyId" : "27add3bd044e5102b0afe8b61b35f740:d41d8cd98f00b204e9800998ecf8427e",
   "time" : {
-    "start" : 1746643874527,
-    "stop" : 1746643886647,
-    "duration" : 12120
+    "start" : 1746730689783,
+    "stop" : 1746730702440,
+    "duration" : 12657
   },
   "status" : "broken",
   "statusMessage" : "element (//button[@id=\"btn_show_free_ld\"]) still not present on page after 10 sec\nlocator.waitFor: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator('//button[@id=\"btn_show_free_ld\"]').first()\n",
@@ -14,11 +14,11 @@
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "\"before each\" hook: codeceptjs.before",
+    "name" : "\"before all\" hook: codeceptjs.beforeSuite",
     "time" : {
-      "start" : 1746643874527,
-      "stop" : 1746643874560,
-      "duration" : 33
+      "start" : 1746730643728,
+      "stop" : 1746730643978,
+      "duration" : 250
     },
     "status" : "passed",
     "steps" : [ ],
@@ -29,11 +29,11 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "\"before all\" hook: codeceptjs.beforeSuite",
+    "name" : "\"before each\" hook: codeceptjs.before",
     "time" : {
-      "start" : 1746643829073,
-      "stop" : 1746643829320,
-      "duration" : 247
+      "start" : 1746730689783,
+      "stop" : 1746730689820,
+      "duration" : 37
     },
     "status" : "passed",
     "steps" : [ ],
@@ -51,8 +51,8 @@
     "steps" : [ {
       "name" : "Given estoy en la pagina principal",
       "time" : {
-        "start" : 1746643874562,
-        "stop" : 1746643874563,
+        "start" : 1746730689822,
+        "stop" : 1746730689823,
         "duration" : 1
       },
       "status" : "broken",
@@ -68,8 +68,8 @@
     }, {
       "name" : "When escribe \"Gladiador\" en la barra de busqueda",
       "time" : {
-        "start" : 1746643874565,
-        "stop" : 1746643874566,
+        "start" : 1746730689826,
+        "stop" : 1746730689827,
         "duration" : 1
       },
       "status" : "broken",
@@ -85,8 +85,8 @@
     }, {
       "name" : "Then debe ver resultados relacionados con \"Gladiador\"",
       "time" : {
-        "start" : 1746643874569,
-        "stop" : 1746643874569,
+        "start" : 1746730689830,
+        "stop" : 1746730689830,
         "duration" : 0
       },
       "status" : "broken",
@@ -102,9 +102,9 @@
     }, {
       "name" : "I am on page \"/\"",
       "time" : {
-        "start" : 1746643874569,
-        "stop" : 1746643876571,
-        "duration" : 2002
+        "start" : 1746730689830,
+        "stop" : 1746730692279,
+        "duration" : 2449
       },
       "status" : "passed",
       "steps" : [ ],
@@ -117,9 +117,9 @@
     }, {
       "name" : "I wait for element \"//button[@id=\"btn_show_free_ld\"]\", 10",
       "time" : {
-        "start" : 1746643876571,
-        "stop" : 1746643886572,
-        "duration" : 10001
+        "start" : 1746730692279,
+        "stop" : 1746730702305,
+        "duration" : 10026
       },
       "status" : "broken",
       "statusMessage" : "element (//button[@id=\"btn_show_free_ld\"]) still not present on page after 10 sec\nlocator.waitFor: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator('//button[@id=\"btn_show_free_ld\"]').first()\n",
@@ -134,16 +134,16 @@
     }, {
       "name" : "Main session - Last Seen Screenshot",
       "time" : {
-        "start" : 1746643886647,
-        "stop" : 1746643886647,
+        "start" : 1746730702392,
+        "stop" : 1746730702392,
         "duration" : 0
       },
       "status" : "unknown",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "9663419504dfbf3",
+        "uid" : "7839b2bfa1235683",
         "name" : "Main session - Last Seen Screenshot",
-        "source" : "9663419504dfbf3.png",
+        "source" : "7839b2bfa1235683.png",
         "type" : "image/png",
         "size" : 8825
       } ],
@@ -161,11 +161,11 @@
     "hasContent" : true
   },
   "afterStages" : [ {
-    "name" : "\"after each\" hook: codeceptjs.after",
+    "name" : "\"after all\" hook: codeceptjs.afterSuite",
     "time" : {
-      "start" : 1746643886647,
-      "stop" : 1746643886659,
-      "duration" : 12
+      "start" : 1746730727477,
+      "stop" : 1746730727478,
+      "duration" : 1
     },
     "status" : "passed",
     "steps" : [ ],
@@ -176,11 +176,11 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "\"after all\" hook: codeceptjs.afterSuite",
+    "name" : "\"after each\" hook: codeceptjs.after",
     "time" : {
-      "start" : 1746643909662,
-      "stop" : 1746643909662,
-      "duration" : 0
+      "start" : 1746730702441,
+      "stop" : 1746730702453,
+      "duration" : 12
     },
     "status" : "passed",
     "steps" : [ ],
@@ -199,10 +199,10 @@
     "value" : "codeceptjs"
   }, {
     "name" : "host",
-    "value" : "fv-az1768-803"
+    "value" : "fv-az1680-637"
   }, {
     "name" : "thread",
-    "value" : "pid-5999-worker-main"
+    "value" : "pid-6101-worker-main"
   }, {
     "name" : "package",
     "value" : "features.claroVideo.feature"
@@ -230,6 +230,6 @@
     } ],
     "tags" : [ "movie" ]
   },
-  "source" : "36f9aaed4a0802af.json",
+  "source" : "80c553018ed26e8c.json",
   "parameterValues" : [ ]
 }
