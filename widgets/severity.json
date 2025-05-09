@@ -1,50 +1,50 @@
 [ {
-  "uid" : "ade2240b103e6715",
-  "name" : "Reproducir un canal @canal",
-  "time" : {
-    "start" : 1746821617151,
-    "stop" : 1746821629656,
-    "duration" : 12505
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "1f3c394a4774771b",
-  "name" : "Iniciar sesion en Claro Video {\"email\":\"israeljaimeqc@gmail.com\",\"password\":\"Qc123456\",\"resultado\":\"debe acceder a su cuenta y ver su perfil\"} @login",
-  "time" : {
-    "start" : 1746821559754,
-    "stop" : 1746821582923,
-    "duration" : 23169
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "76ece81e14967d93",
+  "uid" : "969d9b6502e0c950",
   "name" : "Validar suscripcion @sub",
   "time" : {
-    "start" : 1746821629693,
-    "stop" : 1746821642454,
-    "duration" : 12761
+    "start" : 1746823016015,
+    "stop" : 1746823028293,
+    "duration" : 12278
   },
   "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "5c1ebcfdb2d3cb9e",
+  "uid" : "e67c6330549b723",
+  "name" : "Iniciar sesion en Claro Video {\"email\":\"israeljaimeqc@gmail.com\",\"password\":\"Qc123456\",\"resultado\":\"debe acceder a su cuenta y ver su perfil\"} @login",
+  "time" : {
+    "start" : 1746822946205,
+    "stop" : 1746822968613,
+    "duration" : 22408
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "714b879ccaf92b2c",
+  "name" : "Reproducir un canal @canal",
+  "time" : {
+    "start" : 1746823003229,
+    "stop" : 1746823016002,
+    "duration" : 12773
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "af5e78f0c719cd22",
   "name" : "Iniciar sesion en Claro Video {\"email\":\"israeljaimeqc@gmail.com\",\"password\":\"123456\",\"resultado\":\"mensaje de error\"} @login",
   "time" : {
-    "start" : 1746821582937,
-    "stop" : 1746821604900,
-    "duration" : 21963
+    "start" : 1746822968628,
+    "stop" : 1746822991037,
+    "duration" : 22409
   },
   "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "52588ba2390daddb",
+  "uid" : "6cbc52ca58ea12dd",
   "name" : "Buscar una pelicula @movie",
   "time" : {
-    "start" : 1746821604915,
-    "stop" : 1746821617138,
-    "duration" : 12223
+    "start" : 1746822991049,
+    "stop" : 1746823003205,
+    "duration" : 12156
   },
   "status" : "broken",
   "severity" : "normal"

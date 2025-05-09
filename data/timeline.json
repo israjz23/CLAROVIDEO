@@ -1,78 +1,78 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
-    "name" : "fv-az1979-542",
+    "name" : "fv-az1307-714",
     "children" : [ {
-      "name" : "pid-6077-worker-main",
+      "name" : "pid-6048-worker-main",
       "children" : [ {
-        "name" : "Buscar una pelicula @movie",
-        "uid" : "52588ba2390daddb",
-        "parentUid" : "df0f6044ed81b113d536eb574f43d9f5",
-        "status" : "broken",
-        "time" : {
-          "start" : 1746821604915,
-          "stop" : 1746821617138,
-          "duration" : 12223
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
         "name" : "Validar suscripcion @sub",
-        "uid" : "76ece81e14967d93",
-        "parentUid" : "df0f6044ed81b113d536eb574f43d9f5",
+        "uid" : "969d9b6502e0c950",
+        "parentUid" : "4dd3319a9753ef2127a5f8806d18474b",
         "status" : "broken",
         "time" : {
-          "start" : 1746821629693,
-          "stop" : 1746821642454,
-          "duration" : 12761
+          "start" : 1746823016015,
+          "stop" : 1746823028293,
+          "duration" : 12278
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Iniciar sesion en Claro Video {\"email\":\"israeljaimeqc@gmail.com\",\"password\":\"Qc123456\",\"resultado\":\"debe acceder a su cuenta y ver su perfil\"} @login",
-        "uid" : "1f3c394a4774771b",
-        "parentUid" : "df0f6044ed81b113d536eb574f43d9f5",
+        "uid" : "e67c6330549b723",
+        "parentUid" : "4dd3319a9753ef2127a5f8806d18474b",
         "status" : "broken",
         "time" : {
-          "start" : 1746821559754,
-          "stop" : 1746821582923,
-          "duration" : 23169
+          "start" : 1746822946205,
+          "stop" : 1746822968613,
+          "duration" : 22408
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Iniciar sesion en Claro Video {\"email\":\"israeljaimeqc@gmail.com\",\"password\":\"123456\",\"resultado\":\"mensaje de error\"} @login",
-        "uid" : "5c1ebcfdb2d3cb9e",
-        "parentUid" : "df0f6044ed81b113d536eb574f43d9f5",
+        "uid" : "af5e78f0c719cd22",
+        "parentUid" : "4dd3319a9753ef2127a5f8806d18474b",
         "status" : "broken",
         "time" : {
-          "start" : 1746821582937,
-          "stop" : 1746821604900,
-          "duration" : 21963
+          "start" : 1746822968628,
+          "stop" : 1746822991037,
+          "duration" : 22409
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Buscar una pelicula @movie",
+        "uid" : "6cbc52ca58ea12dd",
+        "parentUid" : "4dd3319a9753ef2127a5f8806d18474b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1746822991049,
+          "stop" : 1746823003205,
+          "duration" : 12156
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Reproducir un canal @canal",
-        "uid" : "ade2240b103e6715",
-        "parentUid" : "df0f6044ed81b113d536eb574f43d9f5",
+        "uid" : "714b879ccaf92b2c",
+        "parentUid" : "4dd3319a9753ef2127a5f8806d18474b",
         "status" : "broken",
         "time" : {
-          "start" : 1746821617151,
-          "stop" : 1746821629656,
-          "duration" : 12505
+          "start" : 1746823003229,
+          "stop" : 1746823016002,
+          "duration" : 12773
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "df0f6044ed81b113d536eb574f43d9f5"
+      "uid" : "4dd3319a9753ef2127a5f8806d18474b"
     } ],
-    "uid" : "04a3aaad891d3c03f27b48b0cc6676c9"
+    "uid" : "cf35ae62d01c9ff4a500b70534d716a0"
   } ],
   "name" : "timeline"
 }
