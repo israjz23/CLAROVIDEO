@@ -1,12 +1,12 @@
 {
-  "uid" : "9be1dfa2209f070",
+  "uid" : "e646c326f9d0ecc4",
   "name" : "Iniciar sesion en Claro Video {\"email\":\"israeljaimeqc@gmail.com\",\"password\":\"123456\",\"resultado\":\"mensaje de error\"} @login",
   "fullName" : "features/claroVideo.feature: Validaciones en Claro Video > Iniciar sesion en Claro Video {\"email\":\"israeljaimeqc@gmail.com\",\"password\":\"123456\",\"resultado\":\"mensaje de error\"} @login",
   "historyId" : "b788ab945f1aa72d4e8ffc0ed12db0cc:d41d8cd98f00b204e9800998ecf8427e",
   "time" : {
-    "start" : 1746826014466,
-    "stop" : 1746826036902,
-    "duration" : 22436
+    "start" : 1746826681315,
+    "stop" : 1746826704439,
+    "duration" : 23124
   },
   "status" : "broken",
   "statusMessage" : "element (//button[@id=\"btn_starts_ld\"]) still not present on page after 20 sec\nlocator.waitFor: Timeout 20000ms exceeded.\nCall log:\n  - waiting for locator('//button[@id=\"btn_starts_ld\"]').first()\n",
@@ -14,11 +14,11 @@
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "\"before each\" hook: codeceptjs.before",
+    "name" : "\"before all\" hook: codeceptjs.beforeSuite",
     "time" : {
-      "start" : 1746826014466,
-      "stop" : 1746826014500,
-      "duration" : 34
+      "start" : 1746826657519,
+      "stop" : 1746826657735,
+      "duration" : 216
     },
     "status" : "passed",
     "steps" : [ ],
@@ -29,11 +29,11 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "\"before all\" hook: codeceptjs.beforeSuite",
+    "name" : "\"before each\" hook: codeceptjs.before",
     "time" : {
-      "start" : 1746825991359,
-      "stop" : 1746825991611,
-      "duration" : 252
+      "start" : 1746826681315,
+      "stop" : 1746826681349,
+      "duration" : 34
     },
     "status" : "passed",
     "steps" : [ ],
@@ -51,8 +51,8 @@
     "steps" : [ {
       "name" : "Given el usuario esta en la pagina de inicio",
       "time" : {
-        "start" : 1746826014502,
-        "stop" : 1746826014503,
+        "start" : 1746826681351,
+        "stop" : 1746826681352,
         "duration" : 1
       },
       "status" : "passed",
@@ -66,9 +66,9 @@
     }, {
       "name" : "When ingresa su correo \"israeljaimeqc@gmail.com\" y contraseña \"123456\"",
       "time" : {
-        "start" : 1746826014508,
-        "stop" : 1746826014508,
-        "duration" : 0
+        "start" : 1746826681357,
+        "stop" : 1746826681358,
+        "duration" : 1
       },
       "status" : "broken",
       "statusMessage" : "element (//button[@id=\"btn_starts_ld\"]) still not present on page after 20 sec\nlocator.waitFor: Timeout 20000ms exceeded.\nCall log:\n  - waiting for locator('//button[@id=\"btn_starts_ld\"]').first()\n",
@@ -83,9 +83,9 @@
     }, {
       "name" : "Then mensaje de error",
       "time" : {
-        "start" : 1746826014510,
-        "stop" : 1746826014510,
-        "duration" : 0
+        "start" : 1746826681359,
+        "stop" : 1746826681360,
+        "duration" : 1
       },
       "status" : "broken",
       "statusMessage" : "element (//button[@id=\"btn_starts_ld\"]) still not present on page after 20 sec\nlocator.waitFor: Timeout 20000ms exceeded.\nCall log:\n  - waiting for locator('//button[@id=\"btn_starts_ld\"]').first()\n",
@@ -100,9 +100,9 @@
     }, {
       "name" : "I am on page \"/\"",
       "time" : {
-        "start" : 1746826014510,
-        "stop" : 1746826016735,
-        "duration" : 2225
+        "start" : 1746826681360,
+        "stop" : 1746826684280,
+        "duration" : 2920
       },
       "status" : "passed",
       "steps" : [ ],
@@ -115,9 +115,9 @@
     }, {
       "name" : "I wait for element \"//button[@id=\"btn_starts_ld\"]\", 20",
       "time" : {
-        "start" : 1746826016736,
-        "stop" : 1746826036748,
-        "duration" : 20012
+        "start" : 1746826684281,
+        "stop" : 1746826704295,
+        "duration" : 20014
       },
       "status" : "broken",
       "statusMessage" : "element (//button[@id=\"btn_starts_ld\"]) still not present on page after 20 sec\nlocator.waitFor: Timeout 20000ms exceeded.\nCall log:\n  - waiting for locator('//button[@id=\"btn_starts_ld\"]').first()\n",
@@ -132,16 +132,16 @@
     }, {
       "name" : "Main session - Last Seen Screenshot",
       "time" : {
-        "start" : 1746826036840,
-        "stop" : 1746826036840,
+        "start" : 1746826704383,
+        "stop" : 1746826704383,
         "duration" : 0
       },
       "status" : "unknown",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "61e97df8d677b255",
+        "uid" : "3ef70b7f5e0c5f86",
         "name" : "Main session - Last Seen Screenshot",
-        "source" : "61e97df8d677b255.png",
+        "source" : "3ef70b7f5e0c5f86.png",
         "type" : "image/png",
         "size" : 8825
       } ],
@@ -161,9 +161,9 @@
   "afterStages" : [ {
     "name" : "\"after each\" hook: codeceptjs.after",
     "time" : {
-      "start" : 1746826036902,
-      "stop" : 1746826036916,
-      "duration" : 14
+      "start" : 1746826704440,
+      "stop" : 1746826704465,
+      "duration" : 25
     },
     "status" : "passed",
     "steps" : [ ],
@@ -176,9 +176,9 @@
   }, {
     "name" : "\"after all\" hook: codeceptjs.afterSuite",
     "time" : {
-      "start" : 1746826074210,
-      "stop" : 1746826074212,
-      "duration" : 2
+      "start" : 1746826744439,
+      "stop" : 1746826744439,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -197,10 +197,10 @@
     "value" : "codeceptjs"
   }, {
     "name" : "host",
-    "value" : "fv-az2210-766"
+    "value" : "fv-az1796-458"
   }, {
     "name" : "thread",
-    "value" : "pid-6072-worker-main"
+    "value" : "pid-6044-worker-main"
   }, {
     "name" : "package",
     "value" : "features.claroVideo.feature"
@@ -228,6 +228,6 @@
     } ],
     "tags" : [ "login" ]
   },
-  "source" : "9be1dfa2209f070.json",
+  "source" : "e646c326f9d0ecc4.json",
   "parameterValues" : [ ]
 }
