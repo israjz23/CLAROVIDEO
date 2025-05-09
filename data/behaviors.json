@@ -2,65 +2,65 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "children" : [ {
     "name" : "Iniciar sesion en Claro Video {\"email\":\"israeljaimeqc@gmail.com\",\"password\":\"Qc123456\",\"resultado\":\"debe acceder a su cuenta y ver su perfil\"} @login",
-    "uid" : "363a380a647d28ce",
+    "uid" : "5235110692b6498",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "broken",
     "time" : {
-      "start" : 1746824322790,
-      "stop" : 1746824345968,
-      "duration" : 23178
+      "start" : 1746824824896,
+      "stop" : 1746824848070,
+      "duration" : 23174
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "Iniciar sesion en Claro Video {\"email\":\"israeljaimeqc@gmail.com\",\"password\":\"123456\",\"resultado\":\"mensaje de error\"} @login",
-    "uid" : "a6d7f4ade5b3c035",
+    "uid" : "77adda138564e971",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "broken",
     "time" : {
-      "start" : 1746824345982,
-      "stop" : 1746824368695,
-      "duration" : 22713
+      "start" : 1746824848085,
+      "stop" : 1746824870269,
+      "duration" : 22184
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "Buscar una pelicula @movie",
-    "uid" : "f7854fd03b5aac9",
+    "uid" : "132dfd548e50a34f",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "broken",
     "time" : {
-      "start" : 1746824368708,
-      "stop" : 1746824381079,
-      "duration" : 12371
+      "start" : 1746824870282,
+      "stop" : 1746824883699,
+      "duration" : 13417
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "Reproducir un canal @canal",
-    "uid" : "5182829846ecf645",
+    "uid" : "c00a6fac50180a5a",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "broken",
     "time" : {
-      "start" : 1746824381106,
-      "stop" : 1746824393292,
-      "duration" : 12186
+      "start" : 1746824883713,
+      "stop" : 1746824896250,
+      "duration" : 12537
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "Validar suscripcion @sub",
-    "uid" : "b0afcc70dd65513c",
+    "uid" : "9781e254edf1c42f",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "broken",
     "time" : {
-      "start" : 1746824393306,
-      "stop" : 1746824405720,
-      "duration" : 12414
+      "start" : 1746824896265,
+      "stop" : 1746824915598,
+      "duration" : 19333
     },
     "flaky" : false,
     "newFailed" : false,

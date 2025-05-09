@@ -1,50 +1,50 @@
 [ {
-  "uid" : "b0afcc70dd65513c",
-  "name" : "Validar suscripcion @sub",
-  "time" : {
-    "start" : 1746824393306,
-    "stop" : 1746824405720,
-    "duration" : 12414
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "363a380a647d28ce",
-  "name" : "Iniciar sesion en Claro Video {\"email\":\"israeljaimeqc@gmail.com\",\"password\":\"Qc123456\",\"resultado\":\"debe acceder a su cuenta y ver su perfil\"} @login",
-  "time" : {
-    "start" : 1746824322790,
-    "stop" : 1746824345968,
-    "duration" : 23178
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "a6d7f4ade5b3c035",
-  "name" : "Iniciar sesion en Claro Video {\"email\":\"israeljaimeqc@gmail.com\",\"password\":\"123456\",\"resultado\":\"mensaje de error\"} @login",
-  "time" : {
-    "start" : 1746824345982,
-    "stop" : 1746824368695,
-    "duration" : 22713
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "5182829846ecf645",
-  "name" : "Reproducir un canal @canal",
-  "time" : {
-    "start" : 1746824381106,
-    "stop" : 1746824393292,
-    "duration" : 12186
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "f7854fd03b5aac9",
+  "uid" : "132dfd548e50a34f",
   "name" : "Buscar una pelicula @movie",
   "time" : {
-    "start" : 1746824368708,
-    "stop" : 1746824381079,
-    "duration" : 12371
+    "start" : 1746824870282,
+    "stop" : 1746824883699,
+    "duration" : 13417
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "77adda138564e971",
+  "name" : "Iniciar sesion en Claro Video {\"email\":\"israeljaimeqc@gmail.com\",\"password\":\"123456\",\"resultado\":\"mensaje de error\"} @login",
+  "time" : {
+    "start" : 1746824848085,
+    "stop" : 1746824870269,
+    "duration" : 22184
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "9781e254edf1c42f",
+  "name" : "Validar suscripcion @sub",
+  "time" : {
+    "start" : 1746824896265,
+    "stop" : 1746824915598,
+    "duration" : 19333
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "c00a6fac50180a5a",
+  "name" : "Reproducir un canal @canal",
+  "time" : {
+    "start" : 1746824883713,
+    "stop" : 1746824896250,
+    "duration" : 12537
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "5235110692b6498",
+  "name" : "Iniciar sesion en Claro Video {\"email\":\"israeljaimeqc@gmail.com\",\"password\":\"Qc123456\",\"resultado\":\"debe acceder a su cuenta y ver su perfil\"} @login",
+  "time" : {
+    "start" : 1746824824896,
+    "stop" : 1746824848070,
+    "duration" : 23174
   },
   "status" : "broken",
   "severity" : "normal"
