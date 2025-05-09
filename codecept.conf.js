@@ -15,7 +15,7 @@ exports.config = {
       browser: "chromium",
       url: "http://clarovideo.com",
       show: false,
-      trace: true,
+
     },
   },
 
