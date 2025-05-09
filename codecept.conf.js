@@ -13,7 +13,7 @@ exports.config = {
   helpers: {
     Playwright: {
       browser: "chromium",
-      url: "https://clarovideo.com/mexico/landing",
+      url: "https://clarovideo.com",
       show: false,
       trace: true,
       locale: 'es-MX',
