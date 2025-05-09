@@ -1,50 +1,50 @@
 [ {
-  "uid" : "714b879ccaf92b2c",
-  "name" : "Reproducir un canal @canal",
-  "time" : {
-    "start" : 1746823003229,
-    "stop" : 1746823016002,
-    "duration" : 12773
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "af5e78f0c719cd22",
+  "uid" : "16bbaa64275394d0",
   "name" : "Iniciar sesion en Claro Video {\"email\":\"israeljaimeqc@gmail.com\",\"password\":\"123456\",\"resultado\":\"mensaje de error\"} @login",
   "time" : {
-    "start" : 1746822968628,
-    "stop" : 1746822991037,
-    "duration" : 22409
+    "start" : 1746823448780,
+    "stop" : 1746823471602,
+    "duration" : 22822
   },
   "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "969d9b6502e0c950",
-  "name" : "Validar suscripcion @sub",
-  "time" : {
-    "start" : 1746823016015,
-    "stop" : 1746823028293,
-    "duration" : 12278
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "e67c6330549b723",
-  "name" : "Iniciar sesion en Claro Video {\"email\":\"israeljaimeqc@gmail.com\",\"password\":\"Qc123456\",\"resultado\":\"debe acceder a su cuenta y ver su perfil\"} @login",
-  "time" : {
-    "start" : 1746822946205,
-    "stop" : 1746822968613,
-    "duration" : 22408
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "6cbc52ca58ea12dd",
+  "uid" : "48c3b02395891f8e",
   "name" : "Buscar una pelicula @movie",
   "time" : {
-    "start" : 1746822991049,
-    "stop" : 1746823003205,
-    "duration" : 12156
+    "start" : 1746823471615,
+    "stop" : 1746823484125,
+    "duration" : 12510
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "53197b871b3b5c4e",
+  "name" : "Iniciar sesion en Claro Video {\"email\":\"israeljaimeqc@gmail.com\",\"password\":\"Qc123456\",\"resultado\":\"debe acceder a su cuenta y ver su perfil\"} @login",
+  "time" : {
+    "start" : 1746823425338,
+    "stop" : 1746823448764,
+    "duration" : 23426
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a8c8af3ce755a7c9",
+  "name" : "Reproducir un canal @canal",
+  "time" : {
+    "start" : 1746823484138,
+    "stop" : 1746823496580,
+    "duration" : 12442
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a064e76ac0689388",
+  "name" : "Validar suscripcion @sub",
+  "time" : {
+    "start" : 1746823496595,
+    "stop" : 1746823509173,
+    "duration" : 12578
   },
   "status" : "broken",
   "severity" : "normal"

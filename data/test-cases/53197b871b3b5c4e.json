@@ -1,12 +1,12 @@
 {
-  "uid" : "af5e78f0c719cd22",
-  "name" : "Iniciar sesion en Claro Video {\"email\":\"israeljaimeqc@gmail.com\",\"password\":\"123456\",\"resultado\":\"mensaje de error\"} @login",
-  "fullName" : "features/claroVideo.feature: Validaciones en Claro Video > Iniciar sesion en Claro Video {\"email\":\"israeljaimeqc@gmail.com\",\"password\":\"123456\",\"resultado\":\"mensaje de error\"} @login",
-  "historyId" : "b788ab945f1aa72d4e8ffc0ed12db0cc:d41d8cd98f00b204e9800998ecf8427e",
+  "uid" : "53197b871b3b5c4e",
+  "name" : "Iniciar sesion en Claro Video {\"email\":\"israeljaimeqc@gmail.com\",\"password\":\"Qc123456\",\"resultado\":\"debe acceder a su cuenta y ver su perfil\"} @login",
+  "fullName" : "features/claroVideo.feature: Validaciones en Claro Video > Iniciar sesion en Claro Video {\"email\":\"israeljaimeqc@gmail.com\",\"password\":\"Qc123456\",\"resultado\":\"debe acceder a su cuenta y ver su perfil\"} @login",
+  "historyId" : "f92a9c2580944a168fdd947b7d9e26b1:d41d8cd98f00b204e9800998ecf8427e",
   "time" : {
-    "start" : 1746822968628,
-    "stop" : 1746822991037,
-    "duration" : 22409
+    "start" : 1746823425338,
+    "stop" : 1746823448764,
+    "duration" : 23426
   },
   "status" : "broken",
   "statusMessage" : "element (//button[@id=\"btn_starts_ld\"]) still not present on page after 20 sec\nlocator.waitFor: Timeout 20000ms exceeded.\nCall log:\n  - waiting for locator('//button[@id=\"btn_starts_ld\"]').first()\n",
@@ -16,9 +16,9 @@
   "beforeStages" : [ {
     "name" : "\"before each\" hook: codeceptjs.before",
     "time" : {
-      "start" : 1746822968628,
-      "stop" : 1746822968661,
-      "duration" : 33
+      "start" : 1746823425339,
+      "stop" : 1746823425397,
+      "duration" : 58
     },
     "status" : "passed",
     "steps" : [ ],
@@ -31,9 +31,9 @@
   }, {
     "name" : "\"before all\" hook: codeceptjs.beforeSuite",
     "time" : {
-      "start" : 1746822946019,
-      "stop" : 1746822946202,
-      "duration" : 183
+      "start" : 1746823425094,
+      "stop" : 1746823425336,
+      "duration" : 242
     },
     "status" : "passed",
     "steps" : [ ],
@@ -51,8 +51,8 @@
     "steps" : [ {
       "name" : "Given el usuario esta en la pagina de inicio",
       "time" : {
-        "start" : 1746822968663,
-        "stop" : 1746822968664,
+        "start" : 1746823425410,
+        "stop" : 1746823425411,
         "duration" : 1
       },
       "status" : "passed",
@@ -64,10 +64,10 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "When ingresa su correo \"israeljaimeqc@gmail.com\" y contraseña \"123456\"",
+      "name" : "When ingresa su correo \"israeljaimeqc@gmail.com\" y contraseña \"Qc123456\"",
       "time" : {
-        "start" : 1746822968669,
-        "stop" : 1746822968670,
+        "start" : 1746823425416,
+        "stop" : 1746823425417,
         "duration" : 1
       },
       "status" : "broken",
@@ -81,10 +81,10 @@
       "shouldDisplayMessage" : true,
       "hasContent" : true
     }, {
-      "name" : "Then mensaje de error",
+      "name" : "Then debe acceder a su cuenta y ver su perfil",
       "time" : {
-        "start" : 1746822968671,
-        "stop" : 1746822968671,
+        "start" : 1746823425418,
+        "stop" : 1746823425418,
         "duration" : 0
       },
       "status" : "broken",
@@ -100,9 +100,9 @@
     }, {
       "name" : "I am on page \"/\"",
       "time" : {
-        "start" : 1746822968672,
-        "stop" : 1746822970874,
-        "duration" : 2202
+        "start" : 1746823425419,
+        "stop" : 1746823428597,
+        "duration" : 3178
       },
       "status" : "passed",
       "steps" : [ ],
@@ -115,9 +115,9 @@
     }, {
       "name" : "I wait for element \"//button[@id=\"btn_starts_ld\"]\", 20",
       "time" : {
-        "start" : 1746822970875,
-        "stop" : 1746822990906,
-        "duration" : 20031
+        "start" : 1746823428597,
+        "stop" : 1746823448611,
+        "duration" : 20014
       },
       "status" : "broken",
       "statusMessage" : "element (//button[@id=\"btn_starts_ld\"]) still not present on page after 20 sec\nlocator.waitFor: Timeout 20000ms exceeded.\nCall log:\n  - waiting for locator('//button[@id=\"btn_starts_ld\"]').first()\n",
@@ -132,16 +132,16 @@
     }, {
       "name" : "Main session - Last Seen Screenshot",
       "time" : {
-        "start" : 1746822990987,
-        "stop" : 1746822990987,
+        "start" : 1746823448698,
+        "stop" : 1746823448698,
         "duration" : 0
       },
       "status" : "unknown",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "bcf2d7bec94ca3b1",
+        "uid" : "c80b5cc92158be9a",
         "name" : "Main session - Last Seen Screenshot",
-        "source" : "bcf2d7bec94ca3b1.png",
+        "source" : "c80b5cc92158be9a.png",
         "type" : "image/png",
         "size" : 8825
       } ],
@@ -159,11 +159,11 @@
     "hasContent" : true
   },
   "afterStages" : [ {
-    "name" : "\"after each\" hook: codeceptjs.after",
+    "name" : "\"after all\" hook: codeceptjs.afterSuite",
     "time" : {
-      "start" : 1746822991037,
-      "stop" : 1746822991048,
-      "duration" : 11
+      "start" : 1746823509184,
+      "stop" : 1746823509185,
+      "duration" : 1
     },
     "status" : "passed",
     "steps" : [ ],
@@ -174,11 +174,11 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "\"after all\" hook: codeceptjs.afterSuite",
+    "name" : "\"after each\" hook: codeceptjs.after",
     "time" : {
-      "start" : 1746823028305,
-      "stop" : 1746823028306,
-      "duration" : 1
+      "start" : 1746823448765,
+      "stop" : 1746823448779,
+      "duration" : 14
     },
     "status" : "passed",
     "steps" : [ ],
@@ -197,10 +197,10 @@
     "value" : "codeceptjs"
   }, {
     "name" : "host",
-    "value" : "fv-az1307-714"
+    "value" : "fv-az1758-856"
   }, {
     "name" : "thread",
-    "value" : "pid-6048-worker-main"
+    "value" : "pid-6044-worker-main"
   }, {
     "name" : "package",
     "value" : "features.claroVideo.feature"
@@ -228,6 +228,6 @@
     } ],
     "tags" : [ "login" ]
   },
-  "source" : "af5e78f0c719cd22.json",
+  "source" : "53197b871b3b5c4e.json",
   "parameterValues" : [ ]
 }
