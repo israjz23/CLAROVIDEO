@@ -6,7 +6,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "features": "codeceptjs run --features --plugins allure",
     "allure:generate": "allure generate output --clean",
-    "allure:report": "allure open"
+    "allure:report": "allure open",
+    "allure:serve": "npm run allure:generate && npm run allure:report"
   },
   "keywords": [],
   "author": "",
