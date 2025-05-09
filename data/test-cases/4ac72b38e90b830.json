@@ -1,12 +1,12 @@
 {
-  "uid" : "a384f7e616e7d7d1",
-  "name" : "Validar suscripcion @sub",
-  "fullName" : "features/claroVideo.feature: Validaciones en Claro Video > Validar suscripcion @sub",
-  "historyId" : "77ff3d1ef863921e2186bd493bc7c652:d41d8cd98f00b204e9800998ecf8427e",
+  "uid" : "4ac72b38e90b830",
+  "name" : "Buscar una pelicula @movie",
+  "fullName" : "features/claroVideo.feature: Validaciones en Claro Video > Buscar una pelicula @movie",
+  "historyId" : "27add3bd044e5102b0afe8b61b35f740:d41d8cd98f00b204e9800998ecf8427e",
   "time" : {
-    "start" : 1746825462092,
-    "stop" : 1746825474691,
-    "duration" : 12599
+    "start" : 1746825747952,
+    "stop" : 1746825760106,
+    "duration" : 12154
   },
   "status" : "broken",
   "statusMessage" : "element (//button[@id=\"btn_show_free_ld\"]) still not present on page after 10 sec\nlocator.waitFor: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator('//button[@id=\"btn_show_free_ld\"]').first()\n",
@@ -14,35 +14,35 @@
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "\"before all\" hook: codeceptjs.beforeSuite",
-    "time" : {
-      "start" : 1746825390106,
-      "stop" : 1746825390325,
-      "duration" : 219
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
     "name" : "\"before each\" hook: codeceptjs.before",
     "time" : {
-      "start" : 1746825462092,
-      "stop" : 1746825462130,
-      "duration" : 38
+      "start" : 1746825747953,
+      "stop" : 1746825747980,
+      "duration" : 27
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
+    "hasContent" : false,
     "stepsCount" : 0,
     "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "\"before all\" hook: codeceptjs.beforeSuite",
+    "time" : {
+      "start" : 1746825701392,
+      "stop" : 1746825701638,
+      "duration" : 246
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   } ],
   "testStage" : {
     "status" : "broken",
@@ -51,8 +51,8 @@
     "steps" : [ {
       "name" : "Given estoy en la pagina principal",
       "time" : {
-        "start" : 1746825462132,
-        "stop" : 1746825462133,
+        "start" : 1746825747983,
+        "stop" : 1746825747984,
         "duration" : 1
       },
       "status" : "broken",
@@ -61,15 +61,15 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "hasContent" : true,
       "stepsCount" : 0,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : true,
-      "hasContent" : true
+      "shouldDisplayMessage" : true
     }, {
-      "name" : "When busco \"Tortugas Ninja\"",
+      "name" : "When escribe \"Gladiador\" en la barra de busqueda",
       "time" : {
-        "start" : 1746825462136,
-        "stop" : 1746825462137,
+        "start" : 1746825747985,
+        "stop" : 1746825747986,
         "duration" : 1
       },
       "status" : "broken",
@@ -78,15 +78,15 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "hasContent" : true,
       "stepsCount" : 0,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : true,
-      "hasContent" : true
+      "shouldDisplayMessage" : true
     }, {
-      "name" : "Then deberia solicitarme suscribirme",
+      "name" : "Then debe ver resultados relacionados con \"Gladiador\"",
       "time" : {
-        "start" : 1746825462139,
-        "stop" : 1746825462140,
+        "start" : 1746825747988,
+        "stop" : 1746825747989,
         "duration" : 1
       },
       "status" : "broken",
@@ -95,31 +95,31 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "hasContent" : true,
       "stepsCount" : 0,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : true,
-      "hasContent" : true
+      "shouldDisplayMessage" : true
     }, {
       "name" : "I am on page \"/\"",
       "time" : {
-        "start" : 1746825462140,
-        "stop" : 1746825464538,
-        "duration" : 2398
+        "start" : 1746825747989,
+        "stop" : 1746825750036,
+        "duration" : 2047
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "hasContent" : false,
       "stepsCount" : 0,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
+      "shouldDisplayMessage" : false
     }, {
       "name" : "I wait for element \"//button[@id=\"btn_show_free_ld\"]\", 10",
       "time" : {
-        "start" : 1746825464538,
-        "stop" : 1746825474554,
-        "duration" : 10016
+        "start" : 1746825750036,
+        "stop" : 1746825760037,
+        "duration" : 10001
       },
       "status" : "broken",
       "statusMessage" : "element (//button[@id=\"btn_show_free_ld\"]) still not present on page after 10 sec\nlocator.waitFor: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator('//button[@id=\"btn_show_free_ld\"]').first()\n",
@@ -127,69 +127,69 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "hasContent" : true,
       "stepsCount" : 0,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : true,
-      "hasContent" : true
+      "shouldDisplayMessage" : true
     }, {
       "name" : "Main session - Last Seen Screenshot",
       "time" : {
-        "start" : 1746825474641,
-        "stop" : 1746825474641,
+        "start" : 1746825760105,
+        "stop" : 1746825760105,
         "duration" : 0
       },
       "status" : "unknown",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "e04ae457181c4481",
+        "uid" : "cdb498760d24edd",
         "name" : "Main session - Last Seen Screenshot",
-        "source" : "e04ae457181c4481.png",
+        "source" : "cdb498760d24edd.png",
         "type" : "image/png",
         "size" : 8825
       } ],
       "parameters" : [ ],
+      "hasContent" : true,
       "stepsCount" : 0,
       "attachmentsCount" : 1,
-      "shouldDisplayMessage" : false,
-      "hasContent" : true
+      "shouldDisplayMessage" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
+    "hasContent" : true,
     "stepsCount" : 6,
     "attachmentsCount" : 1,
-    "shouldDisplayMessage" : false,
-    "hasContent" : true
+    "shouldDisplayMessage" : false
   },
   "afterStages" : [ {
-    "name" : "\"after all\" hook: codeceptjs.afterSuite",
-    "time" : {
-      "start" : 1746825474705,
-      "stop" : 1746825474706,
-      "duration" : 1
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
     "name" : "\"after each\" hook: codeceptjs.after",
     "time" : {
-      "start" : 1746825474691,
-      "stop" : 1746825474705,
-      "duration" : 14
+      "start" : 1746825760106,
+      "stop" : 1746825760118,
+      "duration" : 12
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
+    "hasContent" : false,
     "stepsCount" : 0,
     "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "\"after all\" hook: codeceptjs.afterSuite",
+    "time" : {
+      "start" : 1746825784334,
+      "stop" : 1746825784334,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   } ],
   "labels" : [ {
     "name" : "language",
@@ -199,16 +199,16 @@
     "value" : "codeceptjs"
   }, {
     "name" : "host",
-    "value" : "fv-az1340-599"
+    "value" : "fv-az789-864"
   }, {
     "name" : "thread",
-    "value" : "pid-6044-worker-main"
+    "value" : "pid-6026-worker-main"
   }, {
     "name" : "package",
     "value" : "features.claroVideo.feature"
   }, {
     "name" : "tag",
-    "value" : "sub"
+    "value" : "movie"
   }, {
     "name" : "parentSuite",
     "value" : "Validaciones en Claro Video"
@@ -228,8 +228,8 @@
       "matchedStatuses" : [ ],
       "flaky" : false
     } ],
-    "tags" : [ "sub" ]
+    "tags" : [ "movie" ]
   },
-  "source" : "a384f7e616e7d7d1.json",
+  "source" : "4ac72b38e90b830.json",
   "parameterValues" : [ ]
 }

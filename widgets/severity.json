@@ -1,50 +1,50 @@
 [ {
-  "uid" : "4487b949dae88c09",
-  "name" : "Iniciar sesion en Claro Video {\"email\":\"israeljaimeqc@gmail.com\",\"password\":\"123456\",\"resultado\":\"mensaje de error\"} @login",
-  "time" : {
-    "start" : 1746825414058,
-    "stop" : 1746825436657,
-    "duration" : 22599
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "a2006af198f67eb1",
-  "name" : "Reproducir un canal @canal",
-  "time" : {
-    "start" : 1746825449568,
-    "stop" : 1746825462077,
-    "duration" : 12509
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "a384f7e616e7d7d1",
-  "name" : "Validar suscripcion @sub",
-  "time" : {
-    "start" : 1746825462092,
-    "stop" : 1746825474691,
-    "duration" : 12599
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "f148e4ca8a1d7146",
+  "uid" : "6ed4af4a39fc52dd",
   "name" : "Iniciar sesion en Claro Video {\"email\":\"israeljaimeqc@gmail.com\",\"password\":\"Qc123456\",\"resultado\":\"debe acceder a su cuenta y ver su perfil\"} @login",
   "time" : {
-    "start" : 1746825390327,
-    "stop" : 1746825414042,
-    "duration" : 23715
+    "start" : 1746825701640,
+    "stop" : 1746825725644,
+    "duration" : 24004
   },
   "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "3e5a35e6bdd108c8",
+  "uid" : "a9292525afbef3d4",
+  "name" : "Reproducir un canal @canal",
+  "time" : {
+    "start" : 1746825760118,
+    "stop" : 1746825772221,
+    "duration" : 12103
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "36ed30ce1e820e7f",
+  "name" : "Iniciar sesion en Claro Video {\"email\":\"israeljaimeqc@gmail.com\",\"password\":\"123456\",\"resultado\":\"mensaje de error\"} @login",
+  "time" : {
+    "start" : 1746825725661,
+    "stop" : 1746825747939,
+    "duration" : 22278
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "4ac72b38e90b830",
   "name" : "Buscar una pelicula @movie",
   "time" : {
-    "start" : 1746825436672,
-    "stop" : 1746825449554,
-    "duration" : 12882
+    "start" : 1746825747952,
+    "stop" : 1746825760106,
+    "duration" : 12154
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "9717509fce5ea715",
+  "name" : "Validar suscripcion @sub",
+  "time" : {
+    "start" : 1746825772236,
+    "stop" : 1746825784321,
+    "duration" : 12085
   },
   "status" : "broken",
   "severity" : "normal"

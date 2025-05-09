@@ -1,12 +1,12 @@
 {
-  "uid" : "a2006af198f67eb1",
-  "name" : "Reproducir un canal @canal",
-  "fullName" : "features/claroVideo.feature: Validaciones en Claro Video > Reproducir un canal @canal",
-  "historyId" : "2c66027eeb05c75960d49496b42fa817:d41d8cd98f00b204e9800998ecf8427e",
+  "uid" : "9717509fce5ea715",
+  "name" : "Validar suscripcion @sub",
+  "fullName" : "features/claroVideo.feature: Validaciones en Claro Video > Validar suscripcion @sub",
+  "historyId" : "77ff3d1ef863921e2186bd493bc7c652:d41d8cd98f00b204e9800998ecf8427e",
   "time" : {
-    "start" : 1746825449568,
-    "stop" : 1746825462077,
-    "duration" : 12509
+    "start" : 1746825772236,
+    "stop" : 1746825784321,
+    "duration" : 12085
   },
   "status" : "broken",
   "statusMessage" : "element (//button[@id=\"btn_show_free_ld\"]) still not present on page after 10 sec\nlocator.waitFor: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator('//button[@id=\"btn_show_free_ld\"]').first()\n",
@@ -14,35 +14,35 @@
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "\"before all\" hook: codeceptjs.beforeSuite",
-    "time" : {
-      "start" : 1746825390106,
-      "stop" : 1746825390325,
-      "duration" : 219
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
     "name" : "\"before each\" hook: codeceptjs.before",
     "time" : {
-      "start" : 1746825449568,
-      "stop" : 1746825449609,
-      "duration" : 41
+      "start" : 1746825772236,
+      "stop" : 1746825772263,
+      "duration" : 27
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
+    "hasContent" : false,
     "stepsCount" : 0,
     "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "\"before all\" hook: codeceptjs.beforeSuite",
+    "time" : {
+      "start" : 1746825701392,
+      "stop" : 1746825701638,
+      "duration" : 246
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   } ],
   "testStage" : {
     "status" : "broken",
@@ -51,25 +51,8 @@
     "steps" : [ {
       "name" : "Given estoy en la pagina principal",
       "time" : {
-        "start" : 1746825449611,
-        "stop" : 1746825449611,
-        "duration" : 0
-      },
-      "status" : "broken",
-      "statusMessage" : "element (//button[@id=\"btn_show_free_ld\"]) still not present on page after 10 sec\nlocator.waitFor: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator('//button[@id=\"btn_show_free_ld\"]').first()\n",
-      "statusTrace" : "Error: element (//button[@id=\"btn_show_free_ld\"]) still not present on page after 10 sec\nlocator.waitFor: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator('//button[@id=\"btn_show_free_ld\"]').first()\n\n    at Playwright.waitForElement (/home/runner/work/CLAROVIDEO/CLAROVIDEO/node_modules/codeceptjs/lib/helper/Playwright.js:2574:13)",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : true,
-      "hasContent" : true
-    }, {
-      "name" : "When voy a canales",
-      "time" : {
-        "start" : 1746825449612,
-        "stop" : 1746825449613,
+        "start" : 1746825772265,
+        "stop" : 1746825772266,
         "duration" : 1
       },
       "status" : "broken",
@@ -78,15 +61,32 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "hasContent" : true,
       "stepsCount" : 0,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : true,
-      "hasContent" : true
+      "shouldDisplayMessage" : true
     }, {
-      "name" : "Then deberia ver el canal",
+      "name" : "When busco \"Tortugas Ninja\"",
       "time" : {
-        "start" : 1746825449614,
-        "stop" : 1746825449614,
+        "start" : 1746825772268,
+        "stop" : 1746825772269,
+        "duration" : 1
+      },
+      "status" : "broken",
+      "statusMessage" : "element (//button[@id=\"btn_show_free_ld\"]) still not present on page after 10 sec\nlocator.waitFor: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator('//button[@id=\"btn_show_free_ld\"]').first()\n",
+      "statusTrace" : "Error: element (//button[@id=\"btn_show_free_ld\"]) still not present on page after 10 sec\nlocator.waitFor: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator('//button[@id=\"btn_show_free_ld\"]').first()\n\n    at Playwright.waitForElement (/home/runner/work/CLAROVIDEO/CLAROVIDEO/node_modules/codeceptjs/lib/helper/Playwright.js:2574:13)",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true
+    }, {
+      "name" : "Then deberia solicitarme suscribirme",
+      "time" : {
+        "start" : 1746825772271,
+        "stop" : 1746825772271,
         "duration" : 0
       },
       "status" : "broken",
@@ -95,31 +95,31 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "hasContent" : true,
       "stepsCount" : 0,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : true,
-      "hasContent" : true
+      "shouldDisplayMessage" : true
     }, {
       "name" : "I am on page \"/\"",
       "time" : {
-        "start" : 1746825449614,
-        "stop" : 1746825451916,
-        "duration" : 2302
+        "start" : 1746825772271,
+        "stop" : 1746825774251,
+        "duration" : 1980
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "hasContent" : false,
       "stepsCount" : 0,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
+      "shouldDisplayMessage" : false
     }, {
       "name" : "I wait for element \"//button[@id=\"btn_show_free_ld\"]\", 10",
       "time" : {
-        "start" : 1746825451916,
-        "stop" : 1746825461939,
-        "duration" : 10023
+        "start" : 1746825774251,
+        "stop" : 1746825784252,
+        "duration" : 10001
       },
       "status" : "broken",
       "statusMessage" : "element (//button[@id=\"btn_show_free_ld\"]) still not present on page after 10 sec\nlocator.waitFor: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator('//button[@id=\"btn_show_free_ld\"]').first()\n",
@@ -127,69 +127,69 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "hasContent" : true,
       "stepsCount" : 0,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : true,
-      "hasContent" : true
+      "shouldDisplayMessage" : true
     }, {
       "name" : "Main session - Last Seen Screenshot",
       "time" : {
-        "start" : 1746825462026,
-        "stop" : 1746825462026,
+        "start" : 1746825784321,
+        "stop" : 1746825784321,
         "duration" : 0
       },
       "status" : "unknown",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "55a6e84ce1f6d446",
+        "uid" : "6f0a7cfabd24f0a3",
         "name" : "Main session - Last Seen Screenshot",
-        "source" : "55a6e84ce1f6d446.png",
+        "source" : "6f0a7cfabd24f0a3.png",
         "type" : "image/png",
         "size" : 8825
       } ],
       "parameters" : [ ],
+      "hasContent" : true,
       "stepsCount" : 0,
       "attachmentsCount" : 1,
-      "shouldDisplayMessage" : false,
-      "hasContent" : true
+      "shouldDisplayMessage" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
+    "hasContent" : true,
     "stepsCount" : 6,
     "attachmentsCount" : 1,
-    "shouldDisplayMessage" : false,
-    "hasContent" : true
+    "shouldDisplayMessage" : false
   },
   "afterStages" : [ {
-    "name" : "\"after each\" hook: codeceptjs.after",
-    "time" : {
-      "start" : 1746825462078,
-      "stop" : 1746825462091,
-      "duration" : 13
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
     "name" : "\"after all\" hook: codeceptjs.afterSuite",
     "time" : {
-      "start" : 1746825474705,
-      "stop" : 1746825474706,
-      "duration" : 1
+      "start" : 1746825784334,
+      "stop" : 1746825784334,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
+    "hasContent" : false,
     "stepsCount" : 0,
     "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "\"after each\" hook: codeceptjs.after",
+    "time" : {
+      "start" : 1746825784322,
+      "stop" : 1746825784333,
+      "duration" : 11
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   } ],
   "labels" : [ {
     "name" : "language",
@@ -199,16 +199,16 @@
     "value" : "codeceptjs"
   }, {
     "name" : "host",
-    "value" : "fv-az1340-599"
+    "value" : "fv-az789-864"
   }, {
     "name" : "thread",
-    "value" : "pid-6044-worker-main"
+    "value" : "pid-6026-worker-main"
   }, {
     "name" : "package",
     "value" : "features.claroVideo.feature"
   }, {
     "name" : "tag",
-    "value" : "canal"
+    "value" : "sub"
   }, {
     "name" : "parentSuite",
     "value" : "Validaciones en Claro Video"
@@ -228,8 +228,8 @@
       "matchedStatuses" : [ ],
       "flaky" : false
     } ],
-    "tags" : [ "canal" ]
+    "tags" : [ "sub" ]
   },
-  "source" : "a2006af198f67eb1.json",
+  "source" : "9717509fce5ea715.json",
   "parameterValues" : [ ]
 }

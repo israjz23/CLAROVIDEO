@@ -9,14 +9,14 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4487b949dae88c09",
-      "reportUrl" : "https://israjz23.github.io/CLAROVIDEO/29//#testresult/4487b949dae88c09",
+      "uid" : "36ed30ce1e820e7f",
+      "reportUrl" : "https://israjz23.github.io/CLAROVIDEO/30//#testresult/36ed30ce1e820e7f",
       "status" : "broken",
       "statusDetails" : "element (//button[@id=\"btn_starts_ld\"]) still not present on page after 20 sec\nlocator.waitFor: Timeout 20000ms exceeded.\nCall log:\n  - waiting for locator('//button[@id=\"btn_starts_ld\"]').first()\n",
       "time" : {
-        "start" : 1746825414058,
-        "stop" : 1746825436657,
-        "duration" : 22599
+        "start" : 1746825725661,
+        "stop" : 1746825747939,
+        "duration" : 22278
       }
     } ]
   },
@@ -30,35 +30,14 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "3e5a35e6bdd108c8",
-      "reportUrl" : "https://israjz23.github.io/CLAROVIDEO/29//#testresult/3e5a35e6bdd108c8",
+      "uid" : "4ac72b38e90b830",
+      "reportUrl" : "https://israjz23.github.io/CLAROVIDEO/30//#testresult/4ac72b38e90b830",
       "status" : "broken",
       "statusDetails" : "element (//button[@id=\"btn_show_free_ld\"]) still not present on page after 10 sec\nlocator.waitFor: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator('//button[@id=\"btn_show_free_ld\"]').first()\n",
       "time" : {
-        "start" : 1746825436672,
-        "stop" : 1746825449554,
-        "duration" : 12882
-      }
-    } ]
-  },
-  "f92a9c2580944a168fdd947b7d9e26b1:d41d8cd98f00b204e9800998ecf8427e" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "f148e4ca8a1d7146",
-      "reportUrl" : "https://israjz23.github.io/CLAROVIDEO/29//#testresult/f148e4ca8a1d7146",
-      "status" : "broken",
-      "statusDetails" : "element (//button[@id=\"btn_starts_ld\"]) still not present on page after 20 sec\nlocator.waitFor: Timeout 20000ms exceeded.\nCall log:\n  - waiting for locator('//button[@id=\"btn_starts_ld\"]').first()\n",
-      "time" : {
-        "start" : 1746825390327,
-        "stop" : 1746825414042,
-        "duration" : 23715
+        "start" : 1746825747952,
+        "stop" : 1746825760106,
+        "duration" : 12154
       }
     } ]
   },
@@ -72,14 +51,35 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a384f7e616e7d7d1",
-      "reportUrl" : "https://israjz23.github.io/CLAROVIDEO/29//#testresult/a384f7e616e7d7d1",
+      "uid" : "9717509fce5ea715",
+      "reportUrl" : "https://israjz23.github.io/CLAROVIDEO/30//#testresult/9717509fce5ea715",
       "status" : "broken",
       "statusDetails" : "element (//button[@id=\"btn_show_free_ld\"]) still not present on page after 10 sec\nlocator.waitFor: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator('//button[@id=\"btn_show_free_ld\"]').first()\n",
       "time" : {
-        "start" : 1746825462092,
-        "stop" : 1746825474691,
-        "duration" : 12599
+        "start" : 1746825772236,
+        "stop" : 1746825784321,
+        "duration" : 12085
+      }
+    } ]
+  },
+  "f92a9c2580944a168fdd947b7d9e26b1:d41d8cd98f00b204e9800998ecf8427e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6ed4af4a39fc52dd",
+      "reportUrl" : "https://israjz23.github.io/CLAROVIDEO/30//#testresult/6ed4af4a39fc52dd",
+      "status" : "broken",
+      "statusDetails" : "element (//button[@id=\"btn_starts_ld\"]) still not present on page after 20 sec\nlocator.waitFor: Timeout 20000ms exceeded.\nCall log:\n  - waiting for locator('//button[@id=\"btn_starts_ld\"]').first()\n",
+      "time" : {
+        "start" : 1746825701640,
+        "stop" : 1746825725644,
+        "duration" : 24004
       }
     } ]
   },
@@ -93,14 +93,14 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a2006af198f67eb1",
-      "reportUrl" : "https://israjz23.github.io/CLAROVIDEO/29//#testresult/a2006af198f67eb1",
+      "uid" : "a9292525afbef3d4",
+      "reportUrl" : "https://israjz23.github.io/CLAROVIDEO/30//#testresult/a9292525afbef3d4",
       "status" : "broken",
       "statusDetails" : "element (//button[@id=\"btn_show_free_ld\"]) still not present on page after 10 sec\nlocator.waitFor: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator('//button[@id=\"btn_show_free_ld\"]').first()\n",
       "time" : {
-        "start" : 1746825449568,
-        "stop" : 1746825462077,
-        "duration" : 12509
+        "start" : 1746825760118,
+        "stop" : 1746825772221,
+        "duration" : 12103
       }
     } ]
   }
