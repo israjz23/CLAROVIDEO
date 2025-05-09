@@ -16,7 +16,8 @@ exports.config = {
       url: "http://clarovideo.com",
       show: false,
       trace: true,
-      locale: "es-MX"
+      locale: "es-MX",
+      browserContext: 'incognito',
     },
   },
 
