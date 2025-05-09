@@ -1,12 +1,12 @@
 {
-  "uid" : "c00a6fac50180a5a",
+  "uid" : "a2006af198f67eb1",
   "name" : "Reproducir un canal @canal",
   "fullName" : "features/claroVideo.feature: Validaciones en Claro Video > Reproducir un canal @canal",
   "historyId" : "2c66027eeb05c75960d49496b42fa817:d41d8cd98f00b204e9800998ecf8427e",
   "time" : {
-    "start" : 1746824883713,
-    "stop" : 1746824896250,
-    "duration" : 12537
+    "start" : 1746825449568,
+    "stop" : 1746825462077,
+    "duration" : 12509
   },
   "status" : "broken",
   "statusMessage" : "element (//button[@id=\"btn_show_free_ld\"]) still not present on page after 10 sec\nlocator.waitFor: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator('//button[@id=\"btn_show_free_ld\"]').first()\n",
@@ -16,33 +16,33 @@
   "beforeStages" : [ {
     "name" : "\"before all\" hook: codeceptjs.beforeSuite",
     "time" : {
-      "start" : 1746824824655,
-      "stop" : 1746824824894,
-      "duration" : 239
+      "start" : 1746825390106,
+      "stop" : 1746825390325,
+      "duration" : 219
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
+    "stepsCount" : 0,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "hasContent" : false,
-    "stepsCount" : 0
+    "hasContent" : false
   }, {
     "name" : "\"before each\" hook: codeceptjs.before",
     "time" : {
-      "start" : 1746824883714,
-      "stop" : 1746824883750,
-      "duration" : 36
+      "start" : 1746825449568,
+      "stop" : 1746825449609,
+      "duration" : 41
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
+    "stepsCount" : 0,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "hasContent" : false,
-    "stepsCount" : 0
+    "hasContent" : false
   } ],
   "testStage" : {
     "status" : "broken",
@@ -51,25 +51,8 @@
     "steps" : [ {
       "name" : "Given estoy en la pagina principal",
       "time" : {
-        "start" : 1746824883754,
-        "stop" : 1746824883755,
-        "duration" : 1
-      },
-      "status" : "broken",
-      "statusMessage" : "element (//button[@id=\"btn_show_free_ld\"]) still not present on page after 10 sec\nlocator.waitFor: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator('//button[@id=\"btn_show_free_ld\"]').first()\n",
-      "statusTrace" : "Error: element (//button[@id=\"btn_show_free_ld\"]) still not present on page after 10 sec\nlocator.waitFor: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator('//button[@id=\"btn_show_free_ld\"]').first()\n\n    at Playwright.waitForElement (/home/runner/work/CLAROVIDEO/CLAROVIDEO/node_modules/codeceptjs/lib/helper/Playwright.js:2574:13)",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : true,
-      "hasContent" : true,
-      "stepsCount" : 0
-    }, {
-      "name" : "When voy a canales",
-      "time" : {
-        "start" : 1746824883757,
-        "stop" : 1746824883757,
+        "start" : 1746825449611,
+        "stop" : 1746825449611,
         "duration" : 0
       },
       "status" : "broken",
@@ -78,15 +61,15 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : true,
-      "hasContent" : true,
-      "stepsCount" : 0
+      "hasContent" : true
     }, {
-      "name" : "Then deberia ver el canal",
+      "name" : "When voy a canales",
       "time" : {
-        "start" : 1746824883758,
-        "stop" : 1746824883759,
+        "start" : 1746825449612,
+        "stop" : 1746825449613,
         "duration" : 1
       },
       "status" : "broken",
@@ -95,31 +78,48 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : true,
-      "hasContent" : true,
-      "stepsCount" : 0
+      "hasContent" : true
+    }, {
+      "name" : "Then deberia ver el canal",
+      "time" : {
+        "start" : 1746825449614,
+        "stop" : 1746825449614,
+        "duration" : 0
+      },
+      "status" : "broken",
+      "statusMessage" : "element (//button[@id=\"btn_show_free_ld\"]) still not present on page after 10 sec\nlocator.waitFor: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator('//button[@id=\"btn_show_free_ld\"]').first()\n",
+      "statusTrace" : "Error: element (//button[@id=\"btn_show_free_ld\"]) still not present on page after 10 sec\nlocator.waitFor: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator('//button[@id=\"btn_show_free_ld\"]').first()\n\n    at Playwright.waitForElement (/home/runner/work/CLAROVIDEO/CLAROVIDEO/node_modules/codeceptjs/lib/helper/Playwright.js:2574:13)",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
     }, {
       "name" : "I am on page \"/\"",
       "time" : {
-        "start" : 1746824883759,
-        "stop" : 1746824886081,
-        "duration" : 2322
+        "start" : 1746825449614,
+        "stop" : 1746825451916,
+        "duration" : 2302
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "hasContent" : false,
-      "stepsCount" : 0
+      "hasContent" : false
     }, {
       "name" : "I wait for element \"//button[@id=\"btn_show_free_ld\"]\", 10",
       "time" : {
-        "start" : 1746824886081,
-        "stop" : 1746824896096,
-        "duration" : 10015
+        "start" : 1746825451916,
+        "stop" : 1746825461939,
+        "duration" : 10023
       },
       "status" : "broken",
       "statusMessage" : "element (//button[@id=\"btn_show_free_ld\"]) still not present on page after 10 sec\nlocator.waitFor: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator('//button[@id=\"btn_show_free_ld\"]').first()\n",
@@ -127,69 +127,69 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : true,
-      "hasContent" : true,
-      "stepsCount" : 0
+      "hasContent" : true
     }, {
       "name" : "Main session - Last Seen Screenshot",
       "time" : {
-        "start" : 1746824896184,
-        "stop" : 1746824896184,
+        "start" : 1746825462026,
+        "stop" : 1746825462026,
         "duration" : 0
       },
       "status" : "unknown",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "9e20a089c44c67ce",
+        "uid" : "55a6e84ce1f6d446",
         "name" : "Main session - Last Seen Screenshot",
-        "source" : "9e20a089c44c67ce.png",
+        "source" : "55a6e84ce1f6d446.png",
         "type" : "image/png",
         "size" : 8825
       } ],
       "parameters" : [ ],
+      "stepsCount" : 0,
       "attachmentsCount" : 1,
       "shouldDisplayMessage" : false,
-      "hasContent" : true,
-      "stepsCount" : 0
+      "hasContent" : true
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
+    "stepsCount" : 6,
     "attachmentsCount" : 1,
     "shouldDisplayMessage" : false,
-    "hasContent" : true,
-    "stepsCount" : 6
+    "hasContent" : true
   },
   "afterStages" : [ {
     "name" : "\"after each\" hook: codeceptjs.after",
     "time" : {
-      "start" : 1746824896250,
-      "stop" : 1746824896264,
-      "duration" : 14
+      "start" : 1746825462078,
+      "stop" : 1746825462091,
+      "duration" : 13
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
+    "stepsCount" : 0,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "hasContent" : false,
-    "stepsCount" : 0
+    "hasContent" : false
   }, {
     "name" : "\"after all\" hook: codeceptjs.afterSuite",
     "time" : {
-      "start" : 1746824915610,
-      "stop" : 1746824915611,
+      "start" : 1746825474705,
+      "stop" : 1746825474706,
       "duration" : 1
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
+    "stepsCount" : 0,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "hasContent" : false,
-    "stepsCount" : 0
+    "hasContent" : false
   } ],
   "labels" : [ {
     "name" : "language",
@@ -199,10 +199,10 @@
     "value" : "codeceptjs"
   }, {
     "name" : "host",
-    "value" : "fv-az1361-359"
+    "value" : "fv-az1340-599"
   }, {
     "name" : "thread",
-    "value" : "pid-6022-worker-main"
+    "value" : "pid-6044-worker-main"
   }, {
     "name" : "package",
     "value" : "features.claroVideo.feature"
@@ -230,6 +230,6 @@
     } ],
     "tags" : [ "canal" ]
   },
-  "source" : "c00a6fac50180a5a.json",
+  "source" : "a2006af198f67eb1.json",
   "parameterValues" : [ ]
 }

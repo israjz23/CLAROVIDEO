@@ -1,12 +1,12 @@
 {
-  "uid" : "9781e254edf1c42f",
+  "uid" : "a384f7e616e7d7d1",
   "name" : "Validar suscripcion @sub",
   "fullName" : "features/claroVideo.feature: Validaciones en Claro Video > Validar suscripcion @sub",
   "historyId" : "77ff3d1ef863921e2186bd493bc7c652:d41d8cd98f00b204e9800998ecf8427e",
   "time" : {
-    "start" : 1746824896265,
-    "stop" : 1746824915598,
-    "duration" : 19333
+    "start" : 1746825462092,
+    "stop" : 1746825474691,
+    "duration" : 12599
   },
   "status" : "broken",
   "statusMessage" : "element (//button[@id=\"btn_show_free_ld\"]) still not present on page after 10 sec\nlocator.waitFor: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator('//button[@id=\"btn_show_free_ld\"]').first()\n",
@@ -16,33 +16,33 @@
   "beforeStages" : [ {
     "name" : "\"before all\" hook: codeceptjs.beforeSuite",
     "time" : {
-      "start" : 1746824824655,
-      "stop" : 1746824824894,
-      "duration" : 239
+      "start" : 1746825390106,
+      "stop" : 1746825390325,
+      "duration" : 219
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
+    "stepsCount" : 0,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "hasContent" : false,
-    "stepsCount" : 0
+    "hasContent" : false
   }, {
     "name" : "\"before each\" hook: codeceptjs.before",
     "time" : {
-      "start" : 1746824896266,
-      "stop" : 1746824896301,
-      "duration" : 35
+      "start" : 1746825462092,
+      "stop" : 1746825462130,
+      "duration" : 38
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
+    "stepsCount" : 0,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "hasContent" : false,
-    "stepsCount" : 0
+    "hasContent" : false
   } ],
   "testStage" : {
     "status" : "broken",
@@ -51,8 +51,8 @@
     "steps" : [ {
       "name" : "Given estoy en la pagina principal",
       "time" : {
-        "start" : 1746824896308,
-        "stop" : 1746824896309,
+        "start" : 1746825462132,
+        "stop" : 1746825462133,
         "duration" : 1
       },
       "status" : "broken",
@@ -61,15 +61,15 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : true,
-      "hasContent" : true,
-      "stepsCount" : 0
+      "hasContent" : true
     }, {
       "name" : "When busco \"Tortugas Ninja\"",
       "time" : {
-        "start" : 1746824896312,
-        "stop" : 1746824896313,
+        "start" : 1746825462136,
+        "stop" : 1746825462137,
         "duration" : 1
       },
       "status" : "broken",
@@ -78,16 +78,16 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : true,
-      "hasContent" : true,
-      "stepsCount" : 0
+      "hasContent" : true
     }, {
       "name" : "Then deberia solicitarme suscribirme",
       "time" : {
-        "start" : 1746824896315,
-        "stop" : 1746824896315,
-        "duration" : 0
+        "start" : 1746825462139,
+        "stop" : 1746825462140,
+        "duration" : 1
       },
       "status" : "broken",
       "statusMessage" : "element (//button[@id=\"btn_show_free_ld\"]) still not present on page after 10 sec\nlocator.waitFor: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator('//button[@id=\"btn_show_free_ld\"]').first()\n",
@@ -95,31 +95,31 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : true,
-      "hasContent" : true,
-      "stepsCount" : 0
+      "hasContent" : true
     }, {
       "name" : "I am on page \"/\"",
       "time" : {
-        "start" : 1746824896315,
-        "stop" : 1746824905464,
-        "duration" : 9149
+        "start" : 1746825462140,
+        "stop" : 1746825464538,
+        "duration" : 2398
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "hasContent" : false,
-      "stepsCount" : 0
+      "hasContent" : false
     }, {
       "name" : "I wait for element \"//button[@id=\"btn_show_free_ld\"]\", 10",
       "time" : {
-        "start" : 1746824905464,
-        "stop" : 1746824915478,
-        "duration" : 10014
+        "start" : 1746825464538,
+        "stop" : 1746825474554,
+        "duration" : 10016
       },
       "status" : "broken",
       "statusMessage" : "element (//button[@id=\"btn_show_free_ld\"]) still not present on page after 10 sec\nlocator.waitFor: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator('//button[@id=\"btn_show_free_ld\"]').first()\n",
@@ -127,69 +127,69 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : true,
-      "hasContent" : true,
-      "stepsCount" : 0
+      "hasContent" : true
     }, {
       "name" : "Main session - Last Seen Screenshot",
       "time" : {
-        "start" : 1746824915554,
-        "stop" : 1746824915554,
+        "start" : 1746825474641,
+        "stop" : 1746825474641,
         "duration" : 0
       },
       "status" : "unknown",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "66d9767170e28421",
+        "uid" : "e04ae457181c4481",
         "name" : "Main session - Last Seen Screenshot",
-        "source" : "66d9767170e28421.png",
+        "source" : "e04ae457181c4481.png",
         "type" : "image/png",
         "size" : 8825
       } ],
       "parameters" : [ ],
+      "stepsCount" : 0,
       "attachmentsCount" : 1,
       "shouldDisplayMessage" : false,
-      "hasContent" : true,
-      "stepsCount" : 0
+      "hasContent" : true
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
+    "stepsCount" : 6,
     "attachmentsCount" : 1,
     "shouldDisplayMessage" : false,
-    "hasContent" : true,
-    "stepsCount" : 6
+    "hasContent" : true
   },
   "afterStages" : [ {
-    "name" : "\"after each\" hook: codeceptjs.after",
-    "time" : {
-      "start" : 1746824915598,
-      "stop" : 1746824915610,
-      "duration" : 12
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false,
-    "stepsCount" : 0
-  }, {
     "name" : "\"after all\" hook: codeceptjs.afterSuite",
     "time" : {
-      "start" : 1746824915610,
-      "stop" : 1746824915611,
+      "start" : 1746825474705,
+      "stop" : 1746825474706,
       "duration" : 1
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
+    "stepsCount" : 0,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "hasContent" : false,
-    "stepsCount" : 0
+    "hasContent" : false
+  }, {
+    "name" : "\"after each\" hook: codeceptjs.after",
+    "time" : {
+      "start" : 1746825474691,
+      "stop" : 1746825474705,
+      "duration" : 14
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
   } ],
   "labels" : [ {
     "name" : "language",
@@ -199,10 +199,10 @@
     "value" : "codeceptjs"
   }, {
     "name" : "host",
-    "value" : "fv-az1361-359"
+    "value" : "fv-az1340-599"
   }, {
     "name" : "thread",
-    "value" : "pid-6022-worker-main"
+    "value" : "pid-6044-worker-main"
   }, {
     "name" : "package",
     "value" : "features.claroVideo.feature"
@@ -230,6 +230,6 @@
     } ],
     "tags" : [ "sub" ]
   },
-  "source" : "9781e254edf1c42f.json",
+  "source" : "a384f7e616e7d7d1.json",
   "parameterValues" : [ ]
 }
