@@ -1,12 +1,12 @@
 {
-  "uid" : "5b52abde33869b62",
+  "uid" : "52588ba2390daddb",
   "name" : "Buscar una pelicula @movie",
   "fullName" : "features/claroVideo.feature: Validaciones en Claro Video > Buscar una pelicula @movie",
   "historyId" : "27add3bd044e5102b0afe8b61b35f740:d41d8cd98f00b204e9800998ecf8427e",
   "time" : {
-    "start" : 1746821267978,
-    "stop" : 1746821279940,
-    "duration" : 11962
+    "start" : 1746821604915,
+    "stop" : 1746821617138,
+    "duration" : 12223
   },
   "status" : "broken",
   "statusMessage" : "element (//button[@id=\"btn_show_free_ld\"]) still not present on page after 10 sec\nlocator.waitFor: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator('//button[@id=\"btn_show_free_ld\"]').first()\n",
@@ -14,11 +14,11 @@
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "\"before all\" hook: codeceptjs.beforeSuite",
+    "name" : "\"before each\" hook: codeceptjs.before",
     "time" : {
-      "start" : 1746821221755,
-      "stop" : 1746821221974,
-      "duration" : 219
+      "start" : 1746821604915,
+      "stop" : 1746821604949,
+      "duration" : 34
     },
     "status" : "passed",
     "steps" : [ ],
@@ -29,11 +29,11 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "\"before each\" hook: codeceptjs.before",
+    "name" : "\"before all\" hook: codeceptjs.beforeSuite",
     "time" : {
-      "start" : 1746821267979,
-      "stop" : 1746821268013,
-      "duration" : 34
+      "start" : 1746821559541,
+      "stop" : 1746821559752,
+      "duration" : 211
     },
     "status" : "passed",
     "steps" : [ ],
@@ -51,8 +51,8 @@
     "steps" : [ {
       "name" : "Given estoy en la pagina principal",
       "time" : {
-        "start" : 1746821268016,
-        "stop" : 1746821268017,
+        "start" : 1746821604951,
+        "stop" : 1746821604952,
         "duration" : 1
       },
       "status" : "broken",
@@ -68,9 +68,9 @@
     }, {
       "name" : "When escribe \"Gladiador\" en la barra de busqueda",
       "time" : {
-        "start" : 1746821268019,
-        "stop" : 1746821268019,
-        "duration" : 0
+        "start" : 1746821604955,
+        "stop" : 1746821604956,
+        "duration" : 1
       },
       "status" : "broken",
       "statusMessage" : "element (//button[@id=\"btn_show_free_ld\"]) still not present on page after 10 sec\nlocator.waitFor: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator('//button[@id=\"btn_show_free_ld\"]').first()\n",
@@ -85,8 +85,8 @@
     }, {
       "name" : "Then debe ver resultados relacionados con \"Gladiador\"",
       "time" : {
-        "start" : 1746821268022,
-        "stop" : 1746821268022,
+        "start" : 1746821604959,
+        "stop" : 1746821604959,
         "duration" : 0
       },
       "status" : "broken",
@@ -102,9 +102,9 @@
     }, {
       "name" : "I am on page \"/\"",
       "time" : {
-        "start" : 1746821268022,
-        "stop" : 1746821269362,
-        "duration" : 1340
+        "start" : 1746821604959,
+        "stop" : 1746821606917,
+        "duration" : 1958
       },
       "status" : "passed",
       "steps" : [ ],
@@ -117,9 +117,9 @@
     }, {
       "name" : "I wait for element \"//button[@id=\"btn_show_free_ld\"]\", 10",
       "time" : {
-        "start" : 1746821269362,
-        "stop" : 1746821279801,
-        "duration" : 10439
+        "start" : 1746821606918,
+        "stop" : 1746821617000,
+        "duration" : 10082
       },
       "status" : "broken",
       "statusMessage" : "element (//button[@id=\"btn_show_free_ld\"]) still not present on page after 10 sec\nlocator.waitFor: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator('//button[@id=\"btn_show_free_ld\"]').first()\n",
@@ -134,16 +134,16 @@
     }, {
       "name" : "Main session - Last Seen Screenshot",
       "time" : {
-        "start" : 1746821279888,
-        "stop" : 1746821279888,
+        "start" : 1746821617088,
+        "stop" : 1746821617088,
         "duration" : 0
       },
       "status" : "unknown",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "9d725e64cf1bc8fc",
+        "uid" : "53e4126be9d10d37",
         "name" : "Main session - Last Seen Screenshot",
-        "source" : "9d725e64cf1bc8fc.png",
+        "source" : "53e4126be9d10d37.png",
         "type" : "image/png",
         "size" : 8825
       } ],
@@ -161,11 +161,11 @@
     "hasContent" : true
   },
   "afterStages" : [ {
-    "name" : "\"after each\" hook: codeceptjs.after",
+    "name" : "\"after all\" hook: codeceptjs.afterSuite",
     "time" : {
-      "start" : 1746821279940,
-      "stop" : 1746821279961,
-      "duration" : 21
+      "start" : 1746821642466,
+      "stop" : 1746821642466,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -176,11 +176,11 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "\"after all\" hook: codeceptjs.afterSuite",
+    "name" : "\"after each\" hook: codeceptjs.after",
     "time" : {
-      "start" : 1746821304687,
-      "stop" : 1746821304687,
-      "duration" : 0
+      "start" : 1746821617138,
+      "stop" : 1746821617150,
+      "duration" : 12
     },
     "status" : "passed",
     "steps" : [ ],
@@ -199,10 +199,10 @@
     "value" : "codeceptjs"
   }, {
     "name" : "host",
-    "value" : "fv-az1947-897"
+    "value" : "fv-az1979-542"
   }, {
     "name" : "thread",
-    "value" : "pid-6157-worker-main"
+    "value" : "pid-6077-worker-main"
   }, {
     "name" : "package",
     "value" : "features.claroVideo.feature"
@@ -230,6 +230,6 @@
     } ],
     "tags" : [ "movie" ]
   },
-  "source" : "5b52abde33869b62.json",
+  "source" : "52588ba2390daddb.json",
   "parameterValues" : [ ]
 }

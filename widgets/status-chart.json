@@ -1,50 +1,50 @@
 [ {
-  "uid" : "4dc202a9d1a1dee2",
+  "uid" : "76ece81e14967d93",
   "name" : "Validar suscripcion @sub",
   "time" : {
-    "start" : 1746821292704,
-    "stop" : 1746821304670,
-    "duration" : 11966
+    "start" : 1746821629693,
+    "stop" : 1746821642454,
+    "duration" : 12761
   },
   "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "95e2e013b3b13692",
+  "uid" : "5c1ebcfdb2d3cb9e",
   "name" : "Iniciar sesion en Claro Video {\"email\":\"israeljaimeqc@gmail.com\",\"password\":\"123456\",\"resultado\":\"mensaje de error\"} @login",
   "time" : {
-    "start" : 1746821244814,
-    "stop" : 1746821267962,
-    "duration" : 23148
+    "start" : 1746821582937,
+    "stop" : 1746821604900,
+    "duration" : 21963
   },
   "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "f9912e426a89b15f",
+  "uid" : "1f3c394a4774771b",
   "name" : "Iniciar sesion en Claro Video {\"email\":\"israeljaimeqc@gmail.com\",\"password\":\"Qc123456\",\"resultado\":\"debe acceder a su cuenta y ver su perfil\"} @login",
   "time" : {
-    "start" : 1746821221976,
-    "stop" : 1746821244798,
-    "duration" : 22822
+    "start" : 1746821559754,
+    "stop" : 1746821582923,
+    "duration" : 23169
   },
   "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "5b52abde33869b62",
-  "name" : "Buscar una pelicula @movie",
-  "time" : {
-    "start" : 1746821267978,
-    "stop" : 1746821279940,
-    "duration" : 11962
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "65bf5855c2c3bc91",
+  "uid" : "ade2240b103e6715",
   "name" : "Reproducir un canal @canal",
   "time" : {
-    "start" : 1746821279962,
-    "stop" : 1746821292689,
-    "duration" : 12727
+    "start" : 1746821617151,
+    "stop" : 1746821629656,
+    "duration" : 12505
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "52588ba2390daddb",
+  "name" : "Buscar una pelicula @movie",
+  "time" : {
+    "start" : 1746821604915,
+    "stop" : 1746821617138,
+    "duration" : 12223
   },
   "status" : "broken",
   "severity" : "normal"

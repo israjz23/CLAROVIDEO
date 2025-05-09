@@ -1,12 +1,12 @@
 {
-  "uid" : "f9912e426a89b15f",
+  "uid" : "1f3c394a4774771b",
   "name" : "Iniciar sesion en Claro Video {\"email\":\"israeljaimeqc@gmail.com\",\"password\":\"Qc123456\",\"resultado\":\"debe acceder a su cuenta y ver su perfil\"} @login",
   "fullName" : "features/claroVideo.feature: Validaciones en Claro Video > Iniciar sesion en Claro Video {\"email\":\"israeljaimeqc@gmail.com\",\"password\":\"Qc123456\",\"resultado\":\"debe acceder a su cuenta y ver su perfil\"} @login",
   "historyId" : "f92a9c2580944a168fdd947b7d9e26b1:d41d8cd98f00b204e9800998ecf8427e",
   "time" : {
-    "start" : 1746821221976,
-    "stop" : 1746821244798,
-    "duration" : 22822
+    "start" : 1746821559754,
+    "stop" : 1746821582923,
+    "duration" : 23169
   },
   "status" : "broken",
   "statusMessage" : "element (//button[@id=\"btn_starts_ld\"]) still not present on page after 20 sec\nlocator.waitFor: Timeout 20000ms exceeded.\nCall log:\n  - waiting for locator('//button[@id=\"btn_starts_ld\"]').first()\n",
@@ -16,9 +16,9 @@
   "beforeStages" : [ {
     "name" : "\"before all\" hook: codeceptjs.beforeSuite",
     "time" : {
-      "start" : 1746821221755,
-      "stop" : 1746821221974,
-      "duration" : 219
+      "start" : 1746821559541,
+      "stop" : 1746821559752,
+      "duration" : 211
     },
     "status" : "passed",
     "steps" : [ ],
@@ -31,9 +31,9 @@
   }, {
     "name" : "\"before each\" hook: codeceptjs.before",
     "time" : {
-      "start" : 1746821221977,
-      "stop" : 1746821222038,
-      "duration" : 61
+      "start" : 1746821559755,
+      "stop" : 1746821559812,
+      "duration" : 57
     },
     "status" : "passed",
     "steps" : [ ],
@@ -51,9 +51,9 @@
     "steps" : [ {
       "name" : "Given el usuario esta en la pagina de inicio",
       "time" : {
-        "start" : 1746821222052,
-        "stop" : 1746821222053,
-        "duration" : 1
+        "start" : 1746821559823,
+        "stop" : 1746821559825,
+        "duration" : 2
       },
       "status" : "passed",
       "steps" : [ ],
@@ -66,8 +66,8 @@
     }, {
       "name" : "When ingresa su correo \"israeljaimeqc@gmail.com\" y contraseña \"Qc123456\"",
       "time" : {
-        "start" : 1746821222059,
-        "stop" : 1746821222060,
+        "start" : 1746821559832,
+        "stop" : 1746821559833,
         "duration" : 1
       },
       "status" : "broken",
@@ -83,8 +83,8 @@
     }, {
       "name" : "Then debe acceder a su cuenta y ver su perfil",
       "time" : {
-        "start" : 1746821222061,
-        "stop" : 1746821222061,
+        "start" : 1746821559835,
+        "stop" : 1746821559835,
         "duration" : 0
       },
       "status" : "broken",
@@ -100,9 +100,9 @@
     }, {
       "name" : "I am on page \"/\"",
       "time" : {
-        "start" : 1746821222062,
-        "stop" : 1746821224132,
-        "duration" : 2070
+        "start" : 1746821559836,
+        "stop" : 1746821562749,
+        "duration" : 2913
       },
       "status" : "passed",
       "steps" : [ ],
@@ -115,9 +115,9 @@
     }, {
       "name" : "I wait for element \"//button[@id=\"btn_starts_ld\"]\", 20",
       "time" : {
-        "start" : 1746821224132,
-        "stop" : 1746821244628,
-        "duration" : 20496
+        "start" : 1746821562749,
+        "stop" : 1746821582766,
+        "duration" : 20017
       },
       "status" : "broken",
       "statusMessage" : "element (//button[@id=\"btn_starts_ld\"]) still not present on page after 20 sec\nlocator.waitFor: Timeout 20000ms exceeded.\nCall log:\n  - waiting for locator('//button[@id=\"btn_starts_ld\"]').first()\n",
@@ -132,16 +132,16 @@
     }, {
       "name" : "Main session - Last Seen Screenshot",
       "time" : {
-        "start" : 1746821244727,
-        "stop" : 1746821244727,
+        "start" : 1746821582856,
+        "stop" : 1746821582856,
         "duration" : 0
       },
       "status" : "unknown",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "2dcca14a85fbf24f",
+        "uid" : "fe7f9d09e5c31018",
         "name" : "Main session - Last Seen Screenshot",
-        "source" : "2dcca14a85fbf24f.png",
+        "source" : "fe7f9d09e5c31018.png",
         "type" : "image/png",
         "size" : 8825
       } ],
@@ -161,8 +161,8 @@
   "afterStages" : [ {
     "name" : "\"after all\" hook: codeceptjs.afterSuite",
     "time" : {
-      "start" : 1746821304687,
-      "stop" : 1746821304687,
+      "start" : 1746821642466,
+      "stop" : 1746821642466,
       "duration" : 0
     },
     "status" : "passed",
@@ -176,9 +176,9 @@
   }, {
     "name" : "\"after each\" hook: codeceptjs.after",
     "time" : {
-      "start" : 1746821244798,
-      "stop" : 1746821244813,
-      "duration" : 15
+      "start" : 1746821582924,
+      "stop" : 1746821582936,
+      "duration" : 12
     },
     "status" : "passed",
     "steps" : [ ],
@@ -197,10 +197,10 @@
     "value" : "codeceptjs"
   }, {
     "name" : "host",
-    "value" : "fv-az1947-897"
+    "value" : "fv-az1979-542"
   }, {
     "name" : "thread",
-    "value" : "pid-6157-worker-main"
+    "value" : "pid-6077-worker-main"
   }, {
     "name" : "package",
     "value" : "features.claroVideo.feature"
@@ -228,6 +228,6 @@
     } ],
     "tags" : [ "login" ]
   },
-  "source" : "f9912e426a89b15f.json",
+  "source" : "1f3c394a4774771b.json",
   "parameterValues" : [ ]
 }
