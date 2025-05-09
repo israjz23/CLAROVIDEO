@@ -16,8 +16,10 @@ exports.config = {
       url: "https://clarovideo.com",
       show: false,
       trace: true,
-      locale: 'es-MX',
+      locale: "es-MX",
       windowSize: "1280x720",
+      keepBrowserState: false,
+      keepCookies: false,
     },
   },
 
