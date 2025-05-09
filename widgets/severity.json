@@ -1,50 +1,50 @@
 [ {
-  "uid" : "6ed4af4a39fc52dd",
-  "name" : "Iniciar sesion en Claro Video {\"email\":\"israeljaimeqc@gmail.com\",\"password\":\"Qc123456\",\"resultado\":\"debe acceder a su cuenta y ver su perfil\"} @login",
-  "time" : {
-    "start" : 1746825701640,
-    "stop" : 1746825725644,
-    "duration" : 24004
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "a9292525afbef3d4",
+  "uid" : "ed8301b2a0e22ae4",
   "name" : "Reproducir un canal @canal",
   "time" : {
-    "start" : 1746825760118,
-    "stop" : 1746825772221,
-    "duration" : 12103
+    "start" : 1746826049342,
+    "stop" : 1746826061648,
+    "duration" : 12306
   },
   "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "36ed30ce1e820e7f",
+  "uid" : "9be1dfa2209f070",
   "name" : "Iniciar sesion en Claro Video {\"email\":\"israeljaimeqc@gmail.com\",\"password\":\"123456\",\"resultado\":\"mensaje de error\"} @login",
   "time" : {
-    "start" : 1746825725661,
-    "stop" : 1746825747939,
-    "duration" : 22278
+    "start" : 1746826014466,
+    "stop" : 1746826036902,
+    "duration" : 22436
   },
   "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "4ac72b38e90b830",
+  "uid" : "62654d134b29a9fa",
+  "name" : "Iniciar sesion en Claro Video {\"email\":\"israeljaimeqc@gmail.com\",\"password\":\"Qc123456\",\"resultado\":\"debe acceder a su cuenta y ver su perfil\"} @login",
+  "time" : {
+    "start" : 1746825991613,
+    "stop" : 1746826014442,
+    "duration" : 22829
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "9e16f786b537b475",
   "name" : "Buscar una pelicula @movie",
   "time" : {
-    "start" : 1746825747952,
-    "stop" : 1746825760106,
-    "duration" : 12154
+    "start" : 1746826036916,
+    "stop" : 1746826049327,
+    "duration" : 12411
   },
   "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "9717509fce5ea715",
+  "uid" : "9322d7a5600d0e6e",
   "name" : "Validar suscripcion @sub",
   "time" : {
-    "start" : 1746825772236,
-    "stop" : 1746825784321,
-    "duration" : 12085
+    "start" : 1746826061671,
+    "stop" : 1746826074191,
+    "duration" : 12520
   },
   "status" : "broken",
   "severity" : "normal"

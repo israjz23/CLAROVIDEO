@@ -9,14 +9,14 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "36ed30ce1e820e7f",
-      "reportUrl" : "https://israjz23.github.io/CLAROVIDEO/30//#testresult/36ed30ce1e820e7f",
+      "uid" : "9be1dfa2209f070",
+      "reportUrl" : "https://israjz23.github.io/CLAROVIDEO/31//#testresult/9be1dfa2209f070",
       "status" : "broken",
       "statusDetails" : "element (//button[@id=\"btn_starts_ld\"]) still not present on page after 20 sec\nlocator.waitFor: Timeout 20000ms exceeded.\nCall log:\n  - waiting for locator('//button[@id=\"btn_starts_ld\"]').first()\n",
       "time" : {
-        "start" : 1746825725661,
-        "stop" : 1746825747939,
-        "duration" : 22278
+        "start" : 1746826014466,
+        "stop" : 1746826036902,
+        "duration" : 22436
       }
     } ]
   },
@@ -30,14 +30,14 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4ac72b38e90b830",
-      "reportUrl" : "https://israjz23.github.io/CLAROVIDEO/30//#testresult/4ac72b38e90b830",
+      "uid" : "9e16f786b537b475",
+      "reportUrl" : "https://israjz23.github.io/CLAROVIDEO/31//#testresult/9e16f786b537b475",
       "status" : "broken",
       "statusDetails" : "element (//button[@id=\"btn_show_free_ld\"]) still not present on page after 10 sec\nlocator.waitFor: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator('//button[@id=\"btn_show_free_ld\"]').first()\n",
       "time" : {
-        "start" : 1746825747952,
-        "stop" : 1746825760106,
-        "duration" : 12154
+        "start" : 1746826036916,
+        "stop" : 1746826049327,
+        "duration" : 12411
       }
     } ]
   },
@@ -51,14 +51,14 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9717509fce5ea715",
-      "reportUrl" : "https://israjz23.github.io/CLAROVIDEO/30//#testresult/9717509fce5ea715",
+      "uid" : "9322d7a5600d0e6e",
+      "reportUrl" : "https://israjz23.github.io/CLAROVIDEO/31//#testresult/9322d7a5600d0e6e",
       "status" : "broken",
       "statusDetails" : "element (//button[@id=\"btn_show_free_ld\"]) still not present on page after 10 sec\nlocator.waitFor: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator('//button[@id=\"btn_show_free_ld\"]').first()\n",
       "time" : {
-        "start" : 1746825772236,
-        "stop" : 1746825784321,
-        "duration" : 12085
+        "start" : 1746826061671,
+        "stop" : 1746826074191,
+        "duration" : 12520
       }
     } ]
   },
@@ -72,14 +72,14 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6ed4af4a39fc52dd",
-      "reportUrl" : "https://israjz23.github.io/CLAROVIDEO/30//#testresult/6ed4af4a39fc52dd",
+      "uid" : "62654d134b29a9fa",
+      "reportUrl" : "https://israjz23.github.io/CLAROVIDEO/31//#testresult/62654d134b29a9fa",
       "status" : "broken",
       "statusDetails" : "element (//button[@id=\"btn_starts_ld\"]) still not present on page after 20 sec\nlocator.waitFor: Timeout 20000ms exceeded.\nCall log:\n  - waiting for locator('//button[@id=\"btn_starts_ld\"]').first()\n",
       "time" : {
-        "start" : 1746825701640,
-        "stop" : 1746825725644,
-        "duration" : 24004
+        "start" : 1746825991613,
+        "stop" : 1746826014442,
+        "duration" : 22829
       }
     } ]
   },
@@ -93,14 +93,14 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a9292525afbef3d4",
-      "reportUrl" : "https://israjz23.github.io/CLAROVIDEO/30//#testresult/a9292525afbef3d4",
+      "uid" : "ed8301b2a0e22ae4",
+      "reportUrl" : "https://israjz23.github.io/CLAROVIDEO/31//#testresult/ed8301b2a0e22ae4",
       "status" : "broken",
       "statusDetails" : "element (//button[@id=\"btn_show_free_ld\"]) still not present on page after 10 sec\nlocator.waitFor: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator('//button[@id=\"btn_show_free_ld\"]').first()\n",
       "time" : {
-        "start" : 1746825760118,
-        "stop" : 1746825772221,
-        "duration" : 12103
+        "start" : 1746826049342,
+        "stop" : 1746826061648,
+        "duration" : 12306
       }
     } ]
   }

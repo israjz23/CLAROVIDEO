@@ -1,78 +1,78 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
-    "name" : "fv-az789-864",
+    "name" : "fv-az2210-766",
     "children" : [ {
-      "name" : "pid-6026-worker-main",
+      "name" : "pid-6072-worker-main",
       "children" : [ {
-        "name" : "Buscar una pelicula @movie",
-        "uid" : "4ac72b38e90b830",
-        "parentUid" : "40c0a3bb05f38f659b0cba2d537fe525",
+        "name" : "Iniciar sesion en Claro Video {\"email\":\"israeljaimeqc@gmail.com\",\"password\":\"Qc123456\",\"resultado\":\"debe acceder a su cuenta y ver su perfil\"} @login",
+        "uid" : "62654d134b29a9fa",
+        "parentUid" : "62dfdd873fdf21472313e55f232878b4",
         "status" : "broken",
         "time" : {
-          "start" : 1746825747952,
-          "stop" : 1746825760106,
-          "duration" : 12154
+          "start" : 1746825991613,
+          "stop" : 1746826014442,
+          "duration" : 22829
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Buscar una pelicula @movie",
+        "uid" : "9e16f786b537b475",
+        "parentUid" : "62dfdd873fdf21472313e55f232878b4",
+        "status" : "broken",
+        "time" : {
+          "start" : 1746826036916,
+          "stop" : 1746826049327,
+          "duration" : 12411
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Iniciar sesion en Claro Video {\"email\":\"israeljaimeqc@gmail.com\",\"password\":\"123456\",\"resultado\":\"mensaje de error\"} @login",
-        "uid" : "36ed30ce1e820e7f",
-        "parentUid" : "40c0a3bb05f38f659b0cba2d537fe525",
+        "uid" : "9be1dfa2209f070",
+        "parentUid" : "62dfdd873fdf21472313e55f232878b4",
         "status" : "broken",
         "time" : {
-          "start" : 1746825725661,
-          "stop" : 1746825747939,
-          "duration" : 22278
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Iniciar sesion en Claro Video {\"email\":\"israeljaimeqc@gmail.com\",\"password\":\"Qc123456\",\"resultado\":\"debe acceder a su cuenta y ver su perfil\"} @login",
-        "uid" : "6ed4af4a39fc52dd",
-        "parentUid" : "40c0a3bb05f38f659b0cba2d537fe525",
-        "status" : "broken",
-        "time" : {
-          "start" : 1746825701640,
-          "stop" : 1746825725644,
-          "duration" : 24004
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Reproducir un canal @canal",
-        "uid" : "a9292525afbef3d4",
-        "parentUid" : "40c0a3bb05f38f659b0cba2d537fe525",
-        "status" : "broken",
-        "time" : {
-          "start" : 1746825760118,
-          "stop" : 1746825772221,
-          "duration" : 12103
+          "start" : 1746826014466,
+          "stop" : 1746826036902,
+          "duration" : 22436
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Validar suscripcion @sub",
-        "uid" : "9717509fce5ea715",
-        "parentUid" : "40c0a3bb05f38f659b0cba2d537fe525",
+        "uid" : "9322d7a5600d0e6e",
+        "parentUid" : "62dfdd873fdf21472313e55f232878b4",
         "status" : "broken",
         "time" : {
-          "start" : 1746825772236,
-          "stop" : 1746825784321,
-          "duration" : 12085
+          "start" : 1746826061671,
+          "stop" : 1746826074191,
+          "duration" : 12520
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Reproducir un canal @canal",
+        "uid" : "ed8301b2a0e22ae4",
+        "parentUid" : "62dfdd873fdf21472313e55f232878b4",
+        "status" : "broken",
+        "time" : {
+          "start" : 1746826049342,
+          "stop" : 1746826061648,
+          "duration" : 12306
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "40c0a3bb05f38f659b0cba2d537fe525"
+      "uid" : "62dfdd873fdf21472313e55f232878b4"
     } ],
-    "uid" : "5ffa9c7e6319fccaf9905d74da8f13e7"
+    "uid" : "9bfc425d353a34cf1a11fe84d4253645"
   } ],
   "name" : "timeline"
 }

@@ -2,9 +2,9 @@
   "name" : "GitHub Actions",
   "type" : "github",
   "url" : "https://israjz23.github.io/CLAROVIDEO",
-  "buildOrder" : 30,
-  "buildName" : "GitHub Actions Run #14937918476",
-  "buildUrl" : "https://github.com/israjz23/CLAROVIDEO/actions/runs/14937918476",
+  "buildOrder" : 31,
+  "buildName" : "GitHub Actions Run #14937985248",
+  "buildUrl" : "https://github.com/israjz23/CLAROVIDEO/actions/runs/14937985248",
   "reportName" : "Allure Report with history",
-  "reportUrl" : "https://israjz23.github.io/CLAROVIDEO/30/"
+  "reportUrl" : "https://israjz23.github.io/CLAROVIDEO/31/"
 } ]

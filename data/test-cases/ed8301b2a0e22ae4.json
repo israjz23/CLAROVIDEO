@@ -1,12 +1,12 @@
 {
-  "uid" : "4ac72b38e90b830",
-  "name" : "Buscar una pelicula @movie",
-  "fullName" : "features/claroVideo.feature: Validaciones en Claro Video > Buscar una pelicula @movie",
-  "historyId" : "27add3bd044e5102b0afe8b61b35f740:d41d8cd98f00b204e9800998ecf8427e",
+  "uid" : "ed8301b2a0e22ae4",
+  "name" : "Reproducir un canal @canal",
+  "fullName" : "features/claroVideo.feature: Validaciones en Claro Video > Reproducir un canal @canal",
+  "historyId" : "2c66027eeb05c75960d49496b42fa817:d41d8cd98f00b204e9800998ecf8427e",
   "time" : {
-    "start" : 1746825747952,
-    "stop" : 1746825760106,
-    "duration" : 12154
+    "start" : 1746826049342,
+    "stop" : 1746826061648,
+    "duration" : 12306
   },
   "status" : "broken",
   "statusMessage" : "element (//button[@id=\"btn_show_free_ld\"]) still not present on page after 10 sec\nlocator.waitFor: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator('//button[@id=\"btn_show_free_ld\"]').first()\n",
@@ -16,33 +16,33 @@
   "beforeStages" : [ {
     "name" : "\"before each\" hook: codeceptjs.before",
     "time" : {
-      "start" : 1746825747953,
-      "stop" : 1746825747980,
-      "duration" : 27
+      "start" : 1746826049342,
+      "stop" : 1746826049389,
+      "duration" : 47
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : false,
     "stepsCount" : 0,
     "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
   }, {
     "name" : "\"before all\" hook: codeceptjs.beforeSuite",
     "time" : {
-      "start" : 1746825701392,
-      "stop" : 1746825701638,
-      "duration" : 246
+      "start" : 1746825991359,
+      "stop" : 1746825991611,
+      "duration" : 252
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : false,
     "stepsCount" : 0,
     "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
   } ],
   "testStage" : {
     "status" : "broken",
@@ -51,8 +51,8 @@
     "steps" : [ {
       "name" : "Given estoy en la pagina principal",
       "time" : {
-        "start" : 1746825747983,
-        "stop" : 1746825747984,
+        "start" : 1746826049394,
+        "stop" : 1746826049395,
         "duration" : 1
       },
       "status" : "broken",
@@ -61,16 +61,16 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : true,
       "stepsCount" : 0,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : true
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
     }, {
-      "name" : "When escribe \"Gladiador\" en la barra de busqueda",
+      "name" : "When voy a canales",
       "time" : {
-        "start" : 1746825747985,
-        "stop" : 1746825747986,
-        "duration" : 1
+        "start" : 1746826049396,
+        "stop" : 1746826049396,
+        "duration" : 0
       },
       "status" : "broken",
       "statusMessage" : "element (//button[@id=\"btn_show_free_ld\"]) still not present on page after 10 sec\nlocator.waitFor: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator('//button[@id=\"btn_show_free_ld\"]').first()\n",
@@ -78,15 +78,15 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : true,
       "stepsCount" : 0,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : true
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
     }, {
-      "name" : "Then debe ver resultados relacionados con \"Gladiador\"",
+      "name" : "Then deberia ver el canal",
       "time" : {
-        "start" : 1746825747988,
-        "stop" : 1746825747989,
+        "start" : 1746826049398,
+        "stop" : 1746826049399,
         "duration" : 1
       },
       "status" : "broken",
@@ -95,31 +95,31 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : true,
       "stepsCount" : 0,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : true
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
     }, {
       "name" : "I am on page \"/\"",
       "time" : {
-        "start" : 1746825747989,
-        "stop" : 1746825750036,
-        "duration" : 2047
+        "start" : 1746826049399,
+        "stop" : 1746826051500,
+        "duration" : 2101
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
       "stepsCount" : 0,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
     }, {
       "name" : "I wait for element \"//button[@id=\"btn_show_free_ld\"]\", 10",
       "time" : {
-        "start" : 1746825750036,
-        "stop" : 1746825760037,
-        "duration" : 10001
+        "start" : 1746826051500,
+        "stop" : 1746826061513,
+        "duration" : 10013
       },
       "status" : "broken",
       "statusMessage" : "element (//button[@id=\"btn_show_free_ld\"]) still not present on page after 10 sec\nlocator.waitFor: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator('//button[@id=\"btn_show_free_ld\"]').first()\n",
@@ -127,69 +127,69 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : true,
       "stepsCount" : 0,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : true
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
     }, {
       "name" : "Main session - Last Seen Screenshot",
       "time" : {
-        "start" : 1746825760105,
-        "stop" : 1746825760105,
+        "start" : 1746826061595,
+        "stop" : 1746826061595,
         "duration" : 0
       },
       "status" : "unknown",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "cdb498760d24edd",
+        "uid" : "392445364ebc198a",
         "name" : "Main session - Last Seen Screenshot",
-        "source" : "cdb498760d24edd.png",
+        "source" : "392445364ebc198a.png",
         "type" : "image/png",
         "size" : 8825
       } ],
       "parameters" : [ ],
-      "hasContent" : true,
       "stepsCount" : 0,
       "attachmentsCount" : 1,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : true,
     "stepsCount" : 6,
     "attachmentsCount" : 1,
-    "shouldDisplayMessage" : false
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
   },
   "afterStages" : [ {
     "name" : "\"after each\" hook: codeceptjs.after",
     "time" : {
-      "start" : 1746825760106,
-      "stop" : 1746825760118,
-      "duration" : 12
+      "start" : 1746826061648,
+      "stop" : 1746826061669,
+      "duration" : 21
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : false,
     "stepsCount" : 0,
     "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
   }, {
     "name" : "\"after all\" hook: codeceptjs.afterSuite",
     "time" : {
-      "start" : 1746825784334,
-      "stop" : 1746825784334,
-      "duration" : 0
+      "start" : 1746826074210,
+      "stop" : 1746826074212,
+      "duration" : 2
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : false,
     "stepsCount" : 0,
     "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
   } ],
   "labels" : [ {
     "name" : "language",
@@ -199,16 +199,16 @@
     "value" : "codeceptjs"
   }, {
     "name" : "host",
-    "value" : "fv-az789-864"
+    "value" : "fv-az2210-766"
   }, {
     "name" : "thread",
-    "value" : "pid-6026-worker-main"
+    "value" : "pid-6072-worker-main"
   }, {
     "name" : "package",
     "value" : "features.claroVideo.feature"
   }, {
     "name" : "tag",
-    "value" : "movie"
+    "value" : "canal"
   }, {
     "name" : "parentSuite",
     "value" : "Validaciones en Claro Video"
@@ -228,8 +228,8 @@
       "matchedStatuses" : [ ],
       "flaky" : false
     } ],
-    "tags" : [ "movie" ]
+    "tags" : [ "canal" ]
   },
-  "source" : "4ac72b38e90b830.json",
+  "source" : "ed8301b2a0e22ae4.json",
   "parameterValues" : [ ]
 }
