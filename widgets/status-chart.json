@@ -1,50 +1,50 @@
 [ {
-  "uid" : "6b0391f20d3408df",
+  "uid" : "b0afcc70dd65513c",
   "name" : "Validar suscripcion @sub",
   "time" : {
-    "start" : 1746823842380,
-    "stop" : 1746823855384,
-    "duration" : 13004
+    "start" : 1746824393306,
+    "stop" : 1746824405720,
+    "duration" : 12414
   },
   "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "312ed059feb9789e",
+  "uid" : "363a380a647d28ce",
   "name" : "Iniciar sesion en Claro Video {\"email\":\"israeljaimeqc@gmail.com\",\"password\":\"Qc123456\",\"resultado\":\"debe acceder a su cuenta y ver su perfil\"} @login",
   "time" : {
-    "start" : 1746823769875,
-    "stop" : 1746823793541,
-    "duration" : 23666
+    "start" : 1746824322790,
+    "stop" : 1746824345968,
+    "duration" : 23178
   },
   "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "d021c9ba1ecaccf8",
-  "name" : "Reproducir un canal @canal",
-  "time" : {
-    "start" : 1746823830100,
-    "stop" : 1746823842367,
-    "duration" : 12267
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "73069751063eef00",
-  "name" : "Buscar una pelicula @movie",
-  "time" : {
-    "start" : 1746823817549,
-    "stop" : 1746823830084,
-    "duration" : 12535
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "ff0ab30181f9a8f",
+  "uid" : "a6d7f4ade5b3c035",
   "name" : "Iniciar sesion en Claro Video {\"email\":\"israeljaimeqc@gmail.com\",\"password\":\"123456\",\"resultado\":\"mensaje de error\"} @login",
   "time" : {
-    "start" : 1746823793555,
-    "stop" : 1746823817537,
-    "duration" : 23982
+    "start" : 1746824345982,
+    "stop" : 1746824368695,
+    "duration" : 22713
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "5182829846ecf645",
+  "name" : "Reproducir un canal @canal",
+  "time" : {
+    "start" : 1746824381106,
+    "stop" : 1746824393292,
+    "duration" : 12186
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "f7854fd03b5aac9",
+  "name" : "Buscar una pelicula @movie",
+  "time" : {
+    "start" : 1746824368708,
+    "stop" : 1746824381079,
+    "duration" : 12371
   },
   "status" : "broken",
   "severity" : "normal"
