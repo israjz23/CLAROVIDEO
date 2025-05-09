@@ -17,8 +17,6 @@ exports.config = {
       show: false,
       trace: true,
       windowSize: "1280x720",
-      keepBrowserState: false,
-      keepCookies: false,
     },
   },
 
