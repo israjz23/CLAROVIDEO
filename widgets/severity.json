@@ -1,50 +1,50 @@
 [ {
-  "uid" : "ed087066ae7bc355",
-  "name" : "Iniciar sesion en Claro Video {\"email\":\"israeljaimeqc@gmail.com\",\"password\":\"Qc123456\",\"resultado\":\"debe acceder a su cuenta y ver su perfil\"} @login",
-  "time" : {
-    "start" : 1746818870227,
-    "stop" : 1746818893349,
-    "duration" : 23122
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "54b3b4ff8fec8f75",
-  "name" : "Validar suscripcion @sub",
-  "time" : {
-    "start" : 1746818940559,
-    "stop" : 1746818952878,
-    "duration" : 12319
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "5ca8479b80de42c3",
+  "uid" : "5b52abde33869b62",
   "name" : "Buscar una pelicula @movie",
   "time" : {
-    "start" : 1746818915688,
-    "stop" : 1746818928334,
-    "duration" : 12646
+    "start" : 1746821267978,
+    "stop" : 1746821279940,
+    "duration" : 11962
   },
   "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "fb5da1367e6f14cf",
+  "uid" : "f9912e426a89b15f",
+  "name" : "Iniciar sesion en Claro Video {\"email\":\"israeljaimeqc@gmail.com\",\"password\":\"Qc123456\",\"resultado\":\"debe acceder a su cuenta y ver su perfil\"} @login",
+  "time" : {
+    "start" : 1746821221976,
+    "stop" : 1746821244798,
+    "duration" : 22822
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "4dc202a9d1a1dee2",
+  "name" : "Validar suscripcion @sub",
+  "time" : {
+    "start" : 1746821292704,
+    "stop" : 1746821304670,
+    "duration" : 11966
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "65bf5855c2c3bc91",
   "name" : "Reproducir un canal @canal",
   "time" : {
-    "start" : 1746818928363,
-    "stop" : 1746818940546,
-    "duration" : 12183
+    "start" : 1746821279962,
+    "stop" : 1746821292689,
+    "duration" : 12727
   },
   "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "3c1ee5f979904e54",
+  "uid" : "95e2e013b3b13692",
   "name" : "Iniciar sesion en Claro Video {\"email\":\"israeljaimeqc@gmail.com\",\"password\":\"123456\",\"resultado\":\"mensaje de error\"} @login",
   "time" : {
-    "start" : 1746818893362,
-    "stop" : 1746818915674,
-    "duration" : 22312
+    "start" : 1746821244814,
+    "stop" : 1746821267962,
+    "duration" : 23148
   },
   "status" : "broken",
   "severity" : "normal"

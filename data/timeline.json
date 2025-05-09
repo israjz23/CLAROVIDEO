@@ -1,78 +1,78 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
-    "name" : "fv-az1050-749",
+    "name" : "fv-az1947-897",
     "children" : [ {
-      "name" : "pid-6064-worker-main",
+      "name" : "pid-6157-worker-main",
       "children" : [ {
-        "name" : "Reproducir un canal @canal",
-        "uid" : "fb5da1367e6f14cf",
-        "parentUid" : "c1b090dd7f91186cbfd31bd0aaa22911",
+        "name" : "Iniciar sesion en Claro Video {\"email\":\"israeljaimeqc@gmail.com\",\"password\":\"Qc123456\",\"resultado\":\"debe acceder a su cuenta y ver su perfil\"} @login",
+        "uid" : "f9912e426a89b15f",
+        "parentUid" : "a5b59ba8f17f54b323e0f02fb718545f",
         "status" : "broken",
         "time" : {
-          "start" : 1746818928363,
-          "stop" : 1746818940546,
-          "duration" : 12183
+          "start" : 1746821221976,
+          "stop" : 1746821244798,
+          "duration" : 22822
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Reproducir un canal @canal",
+        "uid" : "65bf5855c2c3bc91",
+        "parentUid" : "a5b59ba8f17f54b323e0f02fb718545f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1746821279962,
+          "stop" : 1746821292689,
+          "duration" : 12727
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Validar suscripcion @sub",
-        "uid" : "54b3b4ff8fec8f75",
-        "parentUid" : "c1b090dd7f91186cbfd31bd0aaa22911",
+        "uid" : "4dc202a9d1a1dee2",
+        "parentUid" : "a5b59ba8f17f54b323e0f02fb718545f",
         "status" : "broken",
         "time" : {
-          "start" : 1746818940559,
-          "stop" : 1746818952878,
-          "duration" : 12319
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Iniciar sesion en Claro Video {\"email\":\"israeljaimeqc@gmail.com\",\"password\":\"Qc123456\",\"resultado\":\"debe acceder a su cuenta y ver su perfil\"} @login",
-        "uid" : "ed087066ae7bc355",
-        "parentUid" : "c1b090dd7f91186cbfd31bd0aaa22911",
-        "status" : "broken",
-        "time" : {
-          "start" : 1746818870227,
-          "stop" : 1746818893349,
-          "duration" : 23122
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Iniciar sesion en Claro Video {\"email\":\"israeljaimeqc@gmail.com\",\"password\":\"123456\",\"resultado\":\"mensaje de error\"} @login",
-        "uid" : "3c1ee5f979904e54",
-        "parentUid" : "c1b090dd7f91186cbfd31bd0aaa22911",
-        "status" : "broken",
-        "time" : {
-          "start" : 1746818893362,
-          "stop" : 1746818915674,
-          "duration" : 22312
+          "start" : 1746821292704,
+          "stop" : 1746821304670,
+          "duration" : 11966
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Buscar una pelicula @movie",
-        "uid" : "5ca8479b80de42c3",
-        "parentUid" : "c1b090dd7f91186cbfd31bd0aaa22911",
+        "uid" : "5b52abde33869b62",
+        "parentUid" : "a5b59ba8f17f54b323e0f02fb718545f",
         "status" : "broken",
         "time" : {
-          "start" : 1746818915688,
-          "stop" : 1746818928334,
-          "duration" : 12646
+          "start" : 1746821267978,
+          "stop" : 1746821279940,
+          "duration" : 11962
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Iniciar sesion en Claro Video {\"email\":\"israeljaimeqc@gmail.com\",\"password\":\"123456\",\"resultado\":\"mensaje de error\"} @login",
+        "uid" : "95e2e013b3b13692",
+        "parentUid" : "a5b59ba8f17f54b323e0f02fb718545f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1746821244814,
+          "stop" : 1746821267962,
+          "duration" : 23148
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "c1b090dd7f91186cbfd31bd0aaa22911"
+      "uid" : "a5b59ba8f17f54b323e0f02fb718545f"
     } ],
-    "uid" : "afebaf84e427e054cdca33ce9140a9dd"
+    "uid" : "28a8535e6bc7b7ad3e13f8bd5fd89bf2"
   } ],
   "name" : "timeline"
 }
