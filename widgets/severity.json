@@ -1,51 +1,11 @@
 [ {
-  "uid" : "3697ec9996480b66",
-  "name" : "Iniciar sesion en Claro Video {\"email\":\"israeljaimeqc@gmail.com\",\"password\":\"Qc123456\",\"resultado\":\"debe acceder a su cuenta y ver su perfil\"} @login",
+  "uid" : "59e1562fbd4bd4e",
+  "name" : "Buscar un producto y ver resultados @mercado",
   "time" : {
-    "start" : 1746828151723,
-    "stop" : 1746828174975,
-    "duration" : 23252
+    "start" : 1746909795065,
+    "stop" : 1746909801117,
+    "duration" : 6052
   },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "e1cfd1027f532e76",
-  "name" : "Buscar una pelicula @movie",
-  "time" : {
-    "start" : 1746828196988,
-    "stop" : 1746828209587,
-    "duration" : 12599
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "75f476bfe4c3fbf",
-  "name" : "Iniciar sesion en Claro Video {\"email\":\"israeljaimeqc@gmail.com\",\"password\":\"123456\",\"resultado\":\"mensaje de error\"} @login",
-  "time" : {
-    "start" : 1746828174988,
-    "stop" : 1746828196975,
-    "duration" : 21987
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "b97a4d695bad9bde",
-  "name" : "Reproducir un canal @canal",
-  "time" : {
-    "start" : 1746828209605,
-    "stop" : 1746828222021,
-    "duration" : 12416
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "3ff3a92e4ec3df39",
-  "name" : "Validar suscripcion @sub",
-  "time" : {
-    "start" : 1746828222037,
-    "stop" : 1746828234637,
-    "duration" : 12600
-  },
-  "status" : "broken",
+  "status" : "passed",
   "severity" : "normal"
 } ]

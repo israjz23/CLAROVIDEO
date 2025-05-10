@@ -1,74 +1,22 @@
 {
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
   "children" : [ {
-    "name" : "features.claroVideo.feature",
+    "name" : "features.mercado.feature",
     "children" : [ {
-      "name" : "Iniciar sesion en Claro Video {\"email\":\"israeljaimeqc@gmail.com\",\"password\":\"Qc123456\",\"resultado\":\"debe acceder a su cuenta y ver su perfil\"} @login",
-      "uid" : "3697ec9996480b66",
-      "parentUid" : "fd768f4553532e172fbede8088de475b",
-      "status" : "broken",
+      "name" : "Buscar un producto y ver resultados @mercado",
+      "uid" : "59e1562fbd4bd4e",
+      "parentUid" : "c1bd22fdaf125aaf3d0a16acc887e960",
+      "status" : "passed",
       "time" : {
-        "start" : 1746828151723,
-        "stop" : 1746828174975,
-        "duration" : 23252
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Iniciar sesion en Claro Video {\"email\":\"israeljaimeqc@gmail.com\",\"password\":\"123456\",\"resultado\":\"mensaje de error\"} @login",
-      "uid" : "75f476bfe4c3fbf",
-      "parentUid" : "fd768f4553532e172fbede8088de475b",
-      "status" : "broken",
-      "time" : {
-        "start" : 1746828174988,
-        "stop" : 1746828196975,
-        "duration" : 21987
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Buscar una pelicula @movie",
-      "uid" : "e1cfd1027f532e76",
-      "parentUid" : "fd768f4553532e172fbede8088de475b",
-      "status" : "broken",
-      "time" : {
-        "start" : 1746828196988,
-        "stop" : 1746828209587,
-        "duration" : 12599
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Reproducir un canal @canal",
-      "uid" : "b97a4d695bad9bde",
-      "parentUid" : "fd768f4553532e172fbede8088de475b",
-      "status" : "broken",
-      "time" : {
-        "start" : 1746828209605,
-        "stop" : 1746828222021,
-        "duration" : 12416
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Validar suscripcion @sub",
-      "uid" : "3ff3a92e4ec3df39",
-      "parentUid" : "fd768f4553532e172fbede8088de475b",
-      "status" : "broken",
-      "time" : {
-        "start" : 1746828222037,
-        "stop" : 1746828234637,
-        "duration" : 12600
+        "start" : 1746909795065,
+        "stop" : 1746909801117,
+        "duration" : 6052
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     } ],
-    "uid" : "features.claroVideo.feature"
+    "uid" : "features.mercado.feature"
   } ],
   "name" : "packages"
 }

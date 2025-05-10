@@ -1,106 +1,21 @@
 {
-  "b788ab945f1aa72d4e8ffc0ed12db0cc:d41d8cd98f00b204e9800998ecf8427e" : {
+  "c31a3881d8c6fef07db9098620a22cca:d41d8cd98f00b204e9800998ecf8427e" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "75f476bfe4c3fbf",
-      "reportUrl" : "https://israjz23.github.io/CLAROVIDEO/34//#testresult/75f476bfe4c3fbf",
-      "status" : "broken",
-      "statusDetails" : "element (//button[@id=\"btn_starts_ld\"]) still not present on page after 20 sec\nlocator.waitFor: Timeout 20000ms exceeded.\nCall log:\n  - waiting for locator('//button[@id=\"btn_starts_ld\"]').first()\n",
+      "uid" : "59e1562fbd4bd4e",
+      "reportUrl" : "https://israjz23.github.io/CLAROVIDEO/35//#testresult/59e1562fbd4bd4e",
+      "status" : "passed",
       "time" : {
-        "start" : 1746828174988,
-        "stop" : 1746828196975,
-        "duration" : 21987
-      }
-    } ]
-  },
-  "27add3bd044e5102b0afe8b61b35f740:d41d8cd98f00b204e9800998ecf8427e" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "e1cfd1027f532e76",
-      "reportUrl" : "https://israjz23.github.io/CLAROVIDEO/34//#testresult/e1cfd1027f532e76",
-      "status" : "broken",
-      "statusDetails" : "element (//button[@id=\"btn_show_free_ld\"]) still not present on page after 10 sec\nlocator.waitFor: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator('//button[@id=\"btn_show_free_ld\"]').first()\n",
-      "time" : {
-        "start" : 1746828196988,
-        "stop" : 1746828209587,
-        "duration" : 12599
-      }
-    } ]
-  },
-  "77ff3d1ef863921e2186bd493bc7c652:d41d8cd98f00b204e9800998ecf8427e" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "3ff3a92e4ec3df39",
-      "reportUrl" : "https://israjz23.github.io/CLAROVIDEO/34//#testresult/3ff3a92e4ec3df39",
-      "status" : "broken",
-      "statusDetails" : "element (//button[@id=\"btn_show_free_ld\"]) still not present on page after 10 sec\nlocator.waitFor: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator('//button[@id=\"btn_show_free_ld\"]').first()\n",
-      "time" : {
-        "start" : 1746828222037,
-        "stop" : 1746828234637,
-        "duration" : 12600
-      }
-    } ]
-  },
-  "f92a9c2580944a168fdd947b7d9e26b1:d41d8cd98f00b204e9800998ecf8427e" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "3697ec9996480b66",
-      "reportUrl" : "https://israjz23.github.io/CLAROVIDEO/34//#testresult/3697ec9996480b66",
-      "status" : "broken",
-      "statusDetails" : "element (//button[@id=\"btn_starts_ld\"]) still not present on page after 20 sec\nlocator.waitFor: Timeout 20000ms exceeded.\nCall log:\n  - waiting for locator('//button[@id=\"btn_starts_ld\"]').first()\n",
-      "time" : {
-        "start" : 1746828151723,
-        "stop" : 1746828174975,
-        "duration" : 23252
-      }
-    } ]
-  },
-  "2c66027eeb05c75960d49496b42fa817:d41d8cd98f00b204e9800998ecf8427e" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "b97a4d695bad9bde",
-      "reportUrl" : "https://israjz23.github.io/CLAROVIDEO/34//#testresult/b97a4d695bad9bde",
-      "status" : "broken",
-      "statusDetails" : "element (//button[@id=\"btn_show_free_ld\"]) still not present on page after 10 sec\nlocator.waitFor: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator('//button[@id=\"btn_show_free_ld\"]').first()\n",
-      "time" : {
-        "start" : 1746828209605,
-        "stop" : 1746828222021,
-        "duration" : 12416
+        "start" : 1746909795065,
+        "stop" : 1746909801117,
+        "duration" : 6052
       }
     } ]
   }
