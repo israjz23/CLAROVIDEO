@@ -13,10 +13,10 @@ exports.config = {
   helpers: {
     Playwright: {
       browser: "chromium",
-      url: "http://clarovideo.com",
+      url: "https://www.mercadolibre.com.mx",
       show: false,
       trace: true,
-      browserContext: 'incognito',
+      locale: "es-MX",
     },
   },
 
@@ -26,7 +26,7 @@ exports.config = {
 
   gherkin: {
     features: "./features/*.feature",
-    steps: "./steps/claroSteps.js",
+    steps: "./steps/*.js",
   },
 
   plugins: {
