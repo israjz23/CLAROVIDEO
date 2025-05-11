@@ -1,4 +1,4 @@
-Feature: Funcionalidad de busqueda y navegacion en Mercado Libre
+Feature: Validaciones en Mercado Libre
 @mercado
 
   Scenario: Buscar un producto y ver resultados
