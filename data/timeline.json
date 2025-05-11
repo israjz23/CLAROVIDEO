@@ -1,26 +1,52 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
-    "name" : "fv-az1670-694",
+    "name" : "fv-az1959-508",
     "children" : [ {
-      "name" : "pid-6144-worker-main",
+      "name" : "pid-6063-worker-main",
       "children" : [ {
-        "name" : "Buscar un producto y ver resultados @mercado",
-        "uid" : "59e1562fbd4bd4e",
-        "parentUid" : "b119dd92ebf888cb3237f0a18a32d953",
+        "name" : "Aplicar filtro de precio minimo y maximo",
+        "uid" : "4a67f9fad63bda5a",
+        "parentUid" : "f056fde2c9247935032cf60c7a4144cf",
         "status" : "passed",
         "time" : {
-          "start" : 1746909795065,
-          "stop" : 1746909801117,
-          "duration" : 6052
+          "start" : 1746987794313,
+          "stop" : 1746987804410,
+          "duration" : 10097
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Buscar un producto y ver resultados @mercado",
+        "uid" : "557cc7be816109f2",
+        "parentUid" : "f056fde2c9247935032cf60c7a4144cf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1746987790843,
+          "stop" : 1746987794284,
+          "duration" : 3441
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Ingresar a la pagina del primer resultado",
+        "uid" : "c32377bf1b7598f0",
+        "parentUid" : "f056fde2c9247935032cf60c7a4144cf",
+        "status" : "broken",
+        "time" : {
+          "start" : 1746987804421,
+          "stop" : 1746987812644,
+          "duration" : 8223
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "b119dd92ebf888cb3237f0a18a32d953"
+      "uid" : "f056fde2c9247935032cf60c7a4144cf"
     } ],
-    "uid" : "922fa9488c379b7adc473fd006d1c0bd"
+    "uid" : "3391650f1b2c698c10b61f964fa74eb0"
   } ],
   "name" : "timeline"
 }

@@ -1,6 +1,8 @@
 [ {
-  "buildOrder" : 35,
-  "reportUrl" : "https://israjz23.github.io/CLAROVIDEO/35/",
+  "buildOrder" : 36,
+  "reportUrl" : "https://israjz23.github.io/CLAROVIDEO/36/",
   "reportName" : "Allure Report with history",
-  "data" : { }
+  "data" : {
+    "Test defects" : 1
+  }
 } ]

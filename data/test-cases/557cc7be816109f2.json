@@ -1,22 +1,22 @@
 {
-  "uid" : "59e1562fbd4bd4e",
+  "uid" : "557cc7be816109f2",
   "name" : "Buscar un producto y ver resultados @mercado",
-  "fullName" : "features/mercado.feature: Funcionalidad de busqueda y navegacion en Mercado Libre Mexico > Buscar un producto y ver resultados @mercado",
-  "historyId" : "c31a3881d8c6fef07db9098620a22cca:d41d8cd98f00b204e9800998ecf8427e",
+  "fullName" : "features/mercado.feature: Funcionalidad de busqueda y navegacion en Mercado Libre > Buscar un producto y ver resultados @mercado",
+  "historyId" : "a85261e1aed4eac29921eab9d4648807:d41d8cd98f00b204e9800998ecf8427e",
   "time" : {
-    "start" : 1746909795065,
-    "stop" : 1746909801117,
-    "duration" : 6052
+    "start" : 1746987790843,
+    "stop" : 1746987794284,
+    "duration" : 3441
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "\"before all\" hook: codeceptjs.beforeSuite",
+    "name" : "\"before each\" hook: codeceptjs.before",
     "time" : {
-      "start" : 1746909794804,
-      "stop" : 1746909795063,
-      "duration" : 259
+      "start" : 1746987790844,
+      "stop" : 1746987790903,
+      "duration" : 59
     },
     "status" : "passed",
     "steps" : [ ],
@@ -27,11 +27,11 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "\"before each\" hook: codeceptjs.before",
+    "name" : "\"before all\" hook: codeceptjs.beforeSuite",
     "time" : {
-      "start" : 1746909795065,
-      "stop" : 1746909795121,
-      "duration" : 56
+      "start" : 1746987788901,
+      "stop" : 1746987790841,
+      "duration" : 1940
     },
     "status" : "passed",
     "steps" : [ ],
@@ -47,9 +47,9 @@
     "steps" : [ {
       "name" : "Given el usuario esta en la pagina principal",
       "time" : {
-        "start" : 1746909795131,
-        "stop" : 1746909795132,
-        "duration" : 1
+        "start" : 1746987790914,
+        "stop" : 1746987790916,
+        "duration" : 2
       },
       "status" : "passed",
       "steps" : [ ],
@@ -62,8 +62,8 @@
     }, {
       "name" : "When busca el producto \"laptop\"",
       "time" : {
-        "start" : 1746909795136,
-        "stop" : 1746909795136,
+        "start" : 1746987790919,
+        "stop" : 1746987790919,
         "duration" : 0
       },
       "status" : "passed",
@@ -77,9 +77,9 @@
     }, {
       "name" : "Then se deben mostrar resultados relacionados con \"laptop\"",
       "time" : {
-        "start" : 1746909795139,
-        "stop" : 1746909801116,
-        "duration" : 5977
+        "start" : 1746987790922,
+        "stop" : 1746987794282,
+        "duration" : 3360
       },
       "status" : "passed",
       "steps" : [ ],
@@ -92,9 +92,9 @@
     }, {
       "name" : "I am on page \"/\"",
       "time" : {
-        "start" : 1746909795140,
-        "stop" : 1746909796251,
-        "duration" : 1111
+        "start" : 1746987790923,
+        "stop" : 1746987792211,
+        "duration" : 1288
       },
       "status" : "passed",
       "steps" : [ ],
@@ -107,9 +107,9 @@
     }, {
       "name" : "I wait for element \"//input[@id=\"cb1-edit\"]\", 10",
       "time" : {
-        "start" : 1746909796251,
-        "stop" : 1746909796517,
-        "duration" : 266
+        "start" : 1746987792212,
+        "stop" : 1746987792471,
+        "duration" : 259
       },
       "status" : "passed",
       "steps" : [ ],
@@ -122,9 +122,9 @@
     }, {
       "name" : "I fill field \"//input[@id=\"cb1-edit\"]\", \"laptop\"",
       "time" : {
-        "start" : 1746909796517,
-        "stop" : 1746909796796,
-        "duration" : 279
+        "start" : 1746987792471,
+        "stop" : 1746987792759,
+        "duration" : 288
       },
       "status" : "passed",
       "steps" : [ ],
@@ -137,9 +137,9 @@
     }, {
       "name" : "I click \"//button[@class=\"nav-search-btn\"]\"",
       "time" : {
-        "start" : 1746909796796,
-        "stop" : 1746909798037,
-        "duration" : 1241
+        "start" : 1746987792760,
+        "stop" : 1746987793943,
+        "duration" : 1183
       },
       "status" : "passed",
       "steps" : [ ],
@@ -152,9 +152,9 @@
     }, {
       "name" : "I grab text from all \"//a[@class=\"poly-component__title\"]\"",
       "time" : {
-        "start" : 1746909798037,
-        "stop" : 1746909801115,
-        "duration" : 3078
+        "start" : 1746987793944,
+        "stop" : 1746987794282,
+        "duration" : 338
       },
       "status" : "passed",
       "steps" : [ ],
@@ -173,11 +173,11 @@
     "hasContent" : true
   },
   "afterStages" : [ {
-    "name" : "\"after each\" hook: codeceptjs.after",
+    "name" : "\"after all\" hook: codeceptjs.afterSuite",
     "time" : {
-      "start" : 1746909801118,
-      "stop" : 1746909801130,
-      "duration" : 12
+      "start" : 1746987812659,
+      "stop" : 1746987812659,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -188,11 +188,11 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "\"after all\" hook: codeceptjs.afterSuite",
+    "name" : "\"after each\" hook: codeceptjs.after",
     "time" : {
-      "start" : 1746909801130,
-      "stop" : 1746909801130,
-      "duration" : 0
+      "start" : 1746987794286,
+      "stop" : 1746987794312,
+      "duration" : 26
     },
     "status" : "passed",
     "steps" : [ ],
@@ -211,10 +211,10 @@
     "value" : "codeceptjs"
   }, {
     "name" : "host",
-    "value" : "fv-az1670-694"
+    "value" : "fv-az1959-508"
   }, {
     "name" : "thread",
-    "value" : "pid-6144-worker-main"
+    "value" : "pid-6063-worker-main"
   }, {
     "name" : "package",
     "value" : "features.mercado.feature"
@@ -223,7 +223,7 @@
     "value" : "mercado"
   }, {
     "name" : "parentSuite",
-    "value" : "Funcionalidad de busqueda y navegacion en Mercado Libre Mexico"
+    "value" : "Funcionalidad de busqueda y navegacion en Mercado Libre"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -238,6 +238,6 @@
     "categories" : [ ],
     "tags" : [ "mercado" ]
   },
-  "source" : "59e1562fbd4bd4e.json",
+  "source" : "557cc7be816109f2.json",
   "parameterValues" : [ ]
 }

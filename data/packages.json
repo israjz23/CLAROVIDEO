@@ -4,13 +4,39 @@
     "name" : "features.mercado.feature",
     "children" : [ {
       "name" : "Buscar un producto y ver resultados @mercado",
-      "uid" : "59e1562fbd4bd4e",
+      "uid" : "557cc7be816109f2",
       "parentUid" : "c1bd22fdaf125aaf3d0a16acc887e960",
       "status" : "passed",
       "time" : {
-        "start" : 1746909795065,
-        "stop" : 1746909801117,
-        "duration" : 6052
+        "start" : 1746987790843,
+        "stop" : 1746987794284,
+        "duration" : 3441
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Aplicar filtro de precio minimo y maximo",
+      "uid" : "4a67f9fad63bda5a",
+      "parentUid" : "c1bd22fdaf125aaf3d0a16acc887e960",
+      "status" : "passed",
+      "time" : {
+        "start" : 1746987794313,
+        "stop" : 1746987804410,
+        "duration" : 10097
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Ingresar a la pagina del primer resultado",
+      "uid" : "c32377bf1b7598f0",
+      "parentUid" : "c1bd22fdaf125aaf3d0a16acc887e960",
+      "status" : "broken",
+      "time" : {
+        "start" : 1746987804421,
+        "stop" : 1746987812644,
+        "duration" : 8223
       },
       "flaky" : false,
       "newFailed" : false,

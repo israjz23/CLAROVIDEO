@@ -1,15 +1,15 @@
 {
   "total" : 1,
   "items" : [ {
-    "uid" : "899a0574e622a1b7364cc5ab08ee39be",
-    "name" : "Funcionalidad de busqueda y navegacion en Mercado Libre Mexico",
+    "uid" : "581cbee21a6eb6d4a34d10c02a74a188",
+    "name" : "Funcionalidad de busqueda y navegacion en Mercado Libre",
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 3
     }
   } ]
 }
