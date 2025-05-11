@@ -1,4 +1,4 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"broken","Sun May 11 18:23:24 GMT 2025","Sun May 11 18:23:32 GMT 2025","8223","Funcionalidad de busqueda y navegacion en Mercado Libre","","","","","Ingresar a la pagina del primer resultado",""
-"passed","Sun May 11 18:23:10 GMT 2025","Sun May 11 18:23:14 GMT 2025","3441","Funcionalidad de busqueda y navegacion en Mercado Libre","","","","","Buscar un producto y ver resultados @mercado",""
-"passed","Sun May 11 18:23:14 GMT 2025","Sun May 11 18:23:24 GMT 2025","10097","Funcionalidad de busqueda y navegacion en Mercado Libre","","","","","Aplicar filtro de precio minimo y maximo",""
+"passed","Sun May 11 22:05:50 GMT 2025","Sun May 11 22:06:00 GMT 2025","10044","Funcionalidad de busqueda y navegacion en Mercado Libre","","","","","Aplicar filtro de precio minimo y maximo",""
+"broken","Sun May 11 22:06:00 GMT 2025","Sun May 11 22:06:10 GMT 2025","9150","Funcionalidad de busqueda y navegacion en Mercado Libre","","","","","Ingresar a la pagina del primer resultado",""
+"passed","Sun May 11 22:05:44 GMT 2025","Sun May 11 22:05:50 GMT 2025","6675","Funcionalidad de busqueda y navegacion en Mercado Libre","","","","","Buscar un producto y ver resultados @mercado",""

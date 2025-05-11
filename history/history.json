@@ -9,14 +9,14 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c32377bf1b7598f0",
-      "reportUrl" : "https://israjz23.github.io/CLAROVIDEO/36//#testresult/c32377bf1b7598f0",
+      "uid" : "2c0536c36e8f6424",
+      "reportUrl" : "https://israjz23.github.io/CLAROVIDEO/37//#testresult/2c0536c36e8f6424",
       "status" : "broken",
       "statusDetails" : "Element \"//div[@class=\"ui-pdp-container__row ui-pdp-with--separator--fluid ui-pdp-with--separator--40-24\"]\" is not visible on page.",
       "time" : {
-        "start" : 1746987804421,
-        "stop" : 1746987812644,
-        "duration" : 8223
+        "start" : 1747001160953,
+        "stop" : 1747001170103,
+        "duration" : 9150
       }
     } ]
   },
@@ -30,13 +30,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "557cc7be816109f2",
-      "reportUrl" : "https://israjz23.github.io/CLAROVIDEO/36//#testresult/557cc7be816109f2",
+      "uid" : "17c742337c93aacc",
+      "reportUrl" : "https://israjz23.github.io/CLAROVIDEO/37//#testresult/17c742337c93aacc",
       "status" : "passed",
       "time" : {
-        "start" : 1746987790843,
-        "stop" : 1746987794284,
-        "duration" : 3441
+        "start" : 1747001144204,
+        "stop" : 1747001150879,
+        "duration" : 6675
       }
     } ]
   },
@@ -50,13 +50,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4a67f9fad63bda5a",
-      "reportUrl" : "https://israjz23.github.io/CLAROVIDEO/36//#testresult/4a67f9fad63bda5a",
+      "uid" : "272da1a19cf2eb8d",
+      "reportUrl" : "https://israjz23.github.io/CLAROVIDEO/37//#testresult/272da1a19cf2eb8d",
       "status" : "passed",
       "time" : {
-        "start" : 1746987794313,
-        "stop" : 1746987804410,
-        "duration" : 10097
+        "start" : 1747001150892,
+        "stop" : 1747001160936,
+        "duration" : 10044
       }
     } ]
   }

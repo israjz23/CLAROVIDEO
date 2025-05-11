@@ -1,22 +1,22 @@
 {
-  "uid" : "557cc7be816109f2",
+  "uid" : "17c742337c93aacc",
   "name" : "Buscar un producto y ver resultados @mercado",
   "fullName" : "features/mercado.feature: Funcionalidad de busqueda y navegacion en Mercado Libre > Buscar un producto y ver resultados @mercado",
   "historyId" : "a85261e1aed4eac29921eab9d4648807:d41d8cd98f00b204e9800998ecf8427e",
   "time" : {
-    "start" : 1746987790843,
-    "stop" : 1746987794284,
-    "duration" : 3441
+    "start" : 1747001144204,
+    "stop" : 1747001150879,
+    "duration" : 6675
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "\"before each\" hook: codeceptjs.before",
+    "name" : "\"before all\" hook: codeceptjs.beforeSuite",
     "time" : {
-      "start" : 1746987790844,
-      "stop" : 1746987790903,
-      "duration" : 59
+      "start" : 1747001142310,
+      "stop" : 1747001144202,
+      "duration" : 1892
     },
     "status" : "passed",
     "steps" : [ ],
@@ -27,11 +27,11 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "\"before all\" hook: codeceptjs.beforeSuite",
+    "name" : "\"before each\" hook: codeceptjs.before",
     "time" : {
-      "start" : 1746987788901,
-      "stop" : 1746987790841,
-      "duration" : 1940
+      "start" : 1747001144204,
+      "stop" : 1747001144274,
+      "duration" : 70
     },
     "status" : "passed",
     "steps" : [ ],
@@ -47,9 +47,9 @@
     "steps" : [ {
       "name" : "Given el usuario esta en la pagina principal",
       "time" : {
-        "start" : 1746987790914,
-        "stop" : 1746987790916,
-        "duration" : 2
+        "start" : 1747001144287,
+        "stop" : 1747001144288,
+        "duration" : 1
       },
       "status" : "passed",
       "steps" : [ ],
@@ -62,9 +62,9 @@
     }, {
       "name" : "When busca el producto \"laptop\"",
       "time" : {
-        "start" : 1746987790919,
-        "stop" : 1746987790919,
-        "duration" : 0
+        "start" : 1747001144291,
+        "stop" : 1747001144292,
+        "duration" : 1
       },
       "status" : "passed",
       "steps" : [ ],
@@ -77,9 +77,9 @@
     }, {
       "name" : "Then se deben mostrar resultados relacionados con \"laptop\"",
       "time" : {
-        "start" : 1746987790922,
-        "stop" : 1746987794282,
-        "duration" : 3360
+        "start" : 1747001144294,
+        "stop" : 1747001150878,
+        "duration" : 6584
       },
       "status" : "passed",
       "steps" : [ ],
@@ -92,9 +92,9 @@
     }, {
       "name" : "I am on page \"/\"",
       "time" : {
-        "start" : 1746987790923,
-        "stop" : 1746987792211,
-        "duration" : 1288
+        "start" : 1747001144295,
+        "stop" : 1747001145910,
+        "duration" : 1615
       },
       "status" : "passed",
       "steps" : [ ],
@@ -107,9 +107,9 @@
     }, {
       "name" : "I wait for element \"//input[@id=\"cb1-edit\"]\", 10",
       "time" : {
-        "start" : 1746987792212,
-        "stop" : 1746987792471,
-        "duration" : 259
+        "start" : 1747001145911,
+        "stop" : 1747001145941,
+        "duration" : 30
       },
       "status" : "passed",
       "steps" : [ ],
@@ -122,9 +122,9 @@
     }, {
       "name" : "I fill field \"//input[@id=\"cb1-edit\"]\", \"laptop\"",
       "time" : {
-        "start" : 1746987792471,
-        "stop" : 1746987792759,
-        "duration" : 288
+        "start" : 1747001145942,
+        "stop" : 1747001146242,
+        "duration" : 300
       },
       "status" : "passed",
       "steps" : [ ],
@@ -137,9 +137,9 @@
     }, {
       "name" : "I click \"//button[@class=\"nav-search-btn\"]\"",
       "time" : {
-        "start" : 1746987792760,
-        "stop" : 1746987793943,
-        "duration" : 1183
+        "start" : 1747001146243,
+        "stop" : 1747001147543,
+        "duration" : 1300
       },
       "status" : "passed",
       "steps" : [ ],
@@ -152,9 +152,9 @@
     }, {
       "name" : "I grab text from all \"//a[@class=\"poly-component__title\"]\"",
       "time" : {
-        "start" : 1746987793944,
-        "stop" : 1746987794282,
-        "duration" : 338
+        "start" : 1747001147543,
+        "stop" : 1747001150877,
+        "duration" : 3334
       },
       "status" : "passed",
       "steps" : [ ],
@@ -173,11 +173,11 @@
     "hasContent" : true
   },
   "afterStages" : [ {
-    "name" : "\"after all\" hook: codeceptjs.afterSuite",
+    "name" : "\"after each\" hook: codeceptjs.after",
     "time" : {
-      "start" : 1746987812659,
-      "stop" : 1746987812659,
-      "duration" : 0
+      "start" : 1747001150880,
+      "stop" : 1747001150892,
+      "duration" : 12
     },
     "status" : "passed",
     "steps" : [ ],
@@ -188,11 +188,11 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "\"after each\" hook: codeceptjs.after",
+    "name" : "\"after all\" hook: codeceptjs.afterSuite",
     "time" : {
-      "start" : 1746987794286,
-      "stop" : 1746987794312,
-      "duration" : 26
+      "start" : 1747001170136,
+      "stop" : 1747001170136,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -211,10 +211,10 @@
     "value" : "codeceptjs"
   }, {
     "name" : "host",
-    "value" : "fv-az1959-508"
+    "value" : "fv-az802-840"
   }, {
     "name" : "thread",
-    "value" : "pid-6063-worker-main"
+    "value" : "pid-6071-worker-main"
   }, {
     "name" : "package",
     "value" : "features.mercado.feature"
@@ -238,6 +238,6 @@
     "categories" : [ ],
     "tags" : [ "mercado" ]
   },
-  "source" : "557cc7be816109f2.json",
+  "source" : "17c742337c93aacc.json",
   "parameterValues" : [ ]
 }
