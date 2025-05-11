@@ -1,26 +1,5 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "children" : [ {
-    "name" : "Test defects",
-    "children" : [ {
-      "name" : "Element \"//div[@class=\"ui-pdp-container__row ui-pdp-with--separator--fluid ui-pdp-with--separator--40-24\"]\" is not visible on page.",
-      "children" : [ {
-        "name" : "Ingresar a la pagina del primer resultado",
-        "uid" : "2c0536c36e8f6424",
-        "parentUid" : "c99c71749dd3c5352351f843175b7357",
-        "status" : "broken",
-        "time" : {
-          "start" : 1747001160953,
-          "stop" : 1747001170103,
-          "duration" : 9150
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "c99c71749dd3c5352351f843175b7357"
-    } ],
-    "uid" : "bdbf199525818fae7a8651db9eafe741"
-  } ],
+  "children" : [ ],
   "name" : "categories"
 }

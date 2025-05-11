@@ -2,39 +2,39 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "children" : [ {
     "name" : "Buscar un producto y ver resultados @mercado",
-    "uid" : "17c742337c93aacc",
+    "uid" : "8f31eb5f18cad8dc",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1747001144204,
-      "stop" : 1747001150879,
-      "duration" : 6675
+      "start" : 1747001644879,
+      "stop" : 1747001651529,
+      "duration" : 6650
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "Aplicar filtro de precio minimo y maximo",
-    "uid" : "272da1a19cf2eb8d",
+    "uid" : "87e509d3f5abc3b6",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1747001150892,
-      "stop" : 1747001160936,
-      "duration" : 10044
+      "start" : 1747001651542,
+      "stop" : 1747001662194,
+      "duration" : 10652
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "Ingresar a la pagina del primer resultado",
-    "uid" : "2c0536c36e8f6424",
+    "uid" : "61eb75ecaec3c588",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "broken",
+    "status" : "passed",
     "time" : {
-      "start" : 1747001160953,
-      "stop" : 1747001170103,
-      "duration" : 9150
+      "start" : 1747001662204,
+      "stop" : 1747001669107,
+      "duration" : 6903
     },
     "flaky" : false,
     "newFailed" : false,

@@ -2,21 +2,20 @@
   "3324d49f90aefa51d96eaf0f43b23235:d41d8cd98f00b204e9800998ecf8427e" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "2c0536c36e8f6424",
-      "reportUrl" : "https://israjz23.github.io/CLAROVIDEO/37//#testresult/2c0536c36e8f6424",
-      "status" : "broken",
-      "statusDetails" : "Element \"//div[@class=\"ui-pdp-container__row ui-pdp-with--separator--fluid ui-pdp-with--separator--40-24\"]\" is not visible on page.",
+      "uid" : "61eb75ecaec3c588",
+      "reportUrl" : "https://israjz23.github.io/CLAROVIDEO/38//#testresult/61eb75ecaec3c588",
+      "status" : "passed",
       "time" : {
-        "start" : 1747001160953,
-        "stop" : 1747001170103,
-        "duration" : 9150
+        "start" : 1747001662204,
+        "stop" : 1747001669107,
+        "duration" : 6903
       }
     } ]
   },
@@ -30,13 +29,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "17c742337c93aacc",
-      "reportUrl" : "https://israjz23.github.io/CLAROVIDEO/37//#testresult/17c742337c93aacc",
+      "uid" : "8f31eb5f18cad8dc",
+      "reportUrl" : "https://israjz23.github.io/CLAROVIDEO/38//#testresult/8f31eb5f18cad8dc",
       "status" : "passed",
       "time" : {
-        "start" : 1747001144204,
-        "stop" : 1747001150879,
-        "duration" : 6675
+        "start" : 1747001644879,
+        "stop" : 1747001651529,
+        "duration" : 6650
       }
     } ]
   },
@@ -50,13 +49,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "272da1a19cf2eb8d",
-      "reportUrl" : "https://israjz23.github.io/CLAROVIDEO/37//#testresult/272da1a19cf2eb8d",
+      "uid" : "87e509d3f5abc3b6",
+      "reportUrl" : "https://israjz23.github.io/CLAROVIDEO/38//#testresult/87e509d3f5abc3b6",
       "status" : "passed",
       "time" : {
-        "start" : 1747001150892,
-        "stop" : 1747001160936,
-        "duration" : 10044
+        "start" : 1747001651542,
+        "stop" : 1747001662194,
+        "duration" : 10652
       }
     } ]
   }
