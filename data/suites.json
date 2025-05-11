@@ -1,48 +1,48 @@
 {
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
   "children" : [ {
-    "name" : "Funcionalidad de busqueda y navegacion en Mercado Libre",
+    "name" : "Validaciones en Mercado Libre",
     "children" : [ {
       "name" : "Buscar un producto y ver resultados @mercado",
-      "uid" : "8f31eb5f18cad8dc",
-      "parentUid" : "581cbee21a6eb6d4a34d10c02a74a188",
+      "uid" : "a3a8d26e7955a6e9",
+      "parentUid" : "77b8349b4926996be1be748d526917eb",
       "status" : "passed",
       "time" : {
-        "start" : 1747001644879,
-        "stop" : 1747001651529,
-        "duration" : 6650
+        "start" : 1747002111228,
+        "stop" : 1747002118359,
+        "duration" : 7131
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "Aplicar filtro de precio minimo y maximo",
-      "uid" : "87e509d3f5abc3b6",
-      "parentUid" : "581cbee21a6eb6d4a34d10c02a74a188",
+      "uid" : "a15acc5387bd6a07",
+      "parentUid" : "77b8349b4926996be1be748d526917eb",
       "status" : "passed",
       "time" : {
-        "start" : 1747001651542,
-        "stop" : 1747001662194,
-        "duration" : 10652
+        "start" : 1747002118376,
+        "stop" : 1747002128963,
+        "duration" : 10587
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "Ingresar a la pagina del primer resultado",
-      "uid" : "61eb75ecaec3c588",
-      "parentUid" : "581cbee21a6eb6d4a34d10c02a74a188",
+      "uid" : "74e9492f1ada21a4",
+      "parentUid" : "77b8349b4926996be1be748d526917eb",
       "status" : "passed",
       "time" : {
-        "start" : 1747001662204,
-        "stop" : 1747001669107,
-        "duration" : 6903
+        "start" : 1747002128973,
+        "stop" : 1747002136144,
+        "duration" : 7171
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     } ],
-    "uid" : "581cbee21a6eb6d4a34d10c02a74a188"
+    "uid" : "77b8349b4926996be1be748d526917eb"
   } ],
   "name" : "suites"
 }

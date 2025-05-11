@@ -1,12 +1,12 @@
 {
-  "uid" : "87e509d3f5abc3b6",
+  "uid" : "a15acc5387bd6a07",
   "name" : "Aplicar filtro de precio minimo y maximo",
-  "fullName" : "features/mercado.feature: Funcionalidad de busqueda y navegacion en Mercado Libre > Aplicar filtro de precio minimo y maximo",
-  "historyId" : "e410c7686bb6caa807a445c9aec5e253:d41d8cd98f00b204e9800998ecf8427e",
+  "fullName" : "features/mercado.feature: Validaciones en Mercado Libre > Aplicar filtro de precio minimo y maximo",
+  "historyId" : "41980c007fdff2db9eed75410ffd65e6:d41d8cd98f00b204e9800998ecf8427e",
   "time" : {
-    "start" : 1747001651542,
-    "stop" : 1747001662194,
-    "duration" : 10652
+    "start" : 1747002118376,
+    "stop" : 1747002128963,
+    "duration" : 10587
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,9 +14,9 @@
   "beforeStages" : [ {
     "name" : "\"before all\" hook: codeceptjs.beforeSuite",
     "time" : {
-      "start" : 1747001644657,
-      "stop" : 1747001644876,
-      "duration" : 219
+      "start" : 1747002110953,
+      "stop" : 1747002111226,
+      "duration" : 273
     },
     "status" : "passed",
     "steps" : [ ],
@@ -29,9 +29,9 @@
   }, {
     "name" : "\"before each\" hook: codeceptjs.before",
     "time" : {
-      "start" : 1747001651542,
-      "stop" : 1747001651576,
-      "duration" : 34
+      "start" : 1747002118377,
+      "stop" : 1747002118422,
+      "duration" : 45
     },
     "status" : "passed",
     "steps" : [ ],
@@ -47,9 +47,9 @@
     "steps" : [ {
       "name" : "Given el usuario ha buscado \"celular\"",
       "time" : {
-        "start" : 1747001651581,
-        "stop" : 1747001651585,
-        "duration" : 4
+        "start" : 1747002118432,
+        "stop" : 1747002118433,
+        "duration" : 1
       },
       "status" : "passed",
       "steps" : [ ],
@@ -62,9 +62,9 @@
     }, {
       "name" : "When aplica un filtro de precio minimo de 10000 y maximo de 16000",
       "time" : {
-        "start" : 1747001651591,
-        "stop" : 1747001651593,
-        "duration" : 2
+        "start" : 1747002118439,
+        "stop" : 1747002118440,
+        "duration" : 1
       },
       "status" : "passed",
       "steps" : [ ],
@@ -77,17 +77,17 @@
     }, {
       "name" : "Then los productos deben estar dentro del rango",
       "time" : {
-        "start" : 1747001651595,
-        "stop" : 1747001662194,
-        "duration" : 10599
+        "start" : 1747002118442,
+        "stop" : 1747002128963,
+        "duration" : 10521
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "I am on page \"/\"",
         "time" : {
-          "start" : 1747001651595,
-          "stop" : 1747001652746,
-          "duration" : 1151
+          "start" : 1747002118442,
+          "stop" : 1747002119835,
+          "duration" : 1393
         },
         "status" : "passed",
         "steps" : [ ],
@@ -100,9 +100,9 @@
       }, {
         "name" : "I wait for element \"//input[@id=\"cb1-edit\"]\", 10",
         "time" : {
-          "start" : 1747001652747,
-          "stop" : 1747001652894,
-          "duration" : 147
+          "start" : 1747002119836,
+          "stop" : 1747002120153,
+          "duration" : 317
         },
         "status" : "passed",
         "steps" : [ ],
@@ -115,9 +115,9 @@
       }, {
         "name" : "I fill field \"//input[@id=\"cb1-edit\"]\", \"celular\"",
         "time" : {
-          "start" : 1747001652894,
-          "stop" : 1747001653419,
-          "duration" : 525
+          "start" : 1747002120153,
+          "stop" : 1747002120486,
+          "duration" : 333
         },
         "status" : "passed",
         "steps" : [ ],
@@ -130,9 +130,9 @@
       }, {
         "name" : "I click \"//button[@class=\"nav-search-btn\"]\"",
         "time" : {
-          "start" : 1747001653419,
-          "stop" : 1747001654462,
-          "duration" : 1043
+          "start" : 1747002120486,
+          "stop" : 1747002121464,
+          "duration" : 978
         },
         "status" : "passed",
         "steps" : [ ],
@@ -145,9 +145,9 @@
       }, {
         "name" : "I wait for element \"//input[@data-testid=\"Minimum-price\"]\", 10",
         "time" : {
-          "start" : 1747001654462,
-          "stop" : 1747001654797,
-          "duration" : 335
+          "start" : 1747002121464,
+          "stop" : 1747002121739,
+          "duration" : 275
         },
         "status" : "passed",
         "steps" : [ ],
@@ -160,9 +160,9 @@
       }, {
         "name" : "I fill field \"//input[@data-testid=\"Minimum-price\"]\", \"10000\"",
         "time" : {
-          "start" : 1747001654797,
-          "stop" : 1747001655565,
-          "duration" : 768
+          "start" : 1747002121739,
+          "stop" : 1747002123438,
+          "duration" : 1699
         },
         "status" : "passed",
         "steps" : [ ],
@@ -175,9 +175,9 @@
       }, {
         "name" : "I fill field \"//input[@data-testid=\"Maximum-price\"]\", \"16000\"",
         "time" : {
-          "start" : 1747001655565,
-          "stop" : 1747001656570,
-          "duration" : 1005
+          "start" : 1747002123438,
+          "stop" : 1747002123774,
+          "duration" : 336
         },
         "status" : "passed",
         "steps" : [ ],
@@ -190,9 +190,9 @@
       }, {
         "name" : "I press key \"Enter\"",
         "time" : {
-          "start" : 1747001656570,
-          "stop" : 1747001657367,
-          "duration" : 797
+          "start" : 1747002123774,
+          "stop" : 1747002124470,
+          "duration" : 696
         },
         "status" : "passed",
         "steps" : [ ],
@@ -205,8 +205,8 @@
       }, {
         "name" : "I wait 3",
         "time" : {
-          "start" : 1747001657367,
-          "stop" : 1747001660367,
+          "start" : 1747002124471,
+          "stop" : 1747002127471,
           "duration" : 3000
         },
         "status" : "passed",
@@ -220,9 +220,9 @@
       }, {
         "name" : "I grab text from all \"//span[@class=\"andes-money-amount andes-money-amount--cents-superscript\"]\"",
         "time" : {
-          "start" : 1747001660368,
-          "stop" : 1747001662193,
-          "duration" : 1825
+          "start" : 1747002127471,
+          "stop" : 1747002128962,
+          "duration" : 1491
         },
         "status" : "passed",
         "steps" : [ ],
@@ -248,11 +248,11 @@
     "hasContent" : true
   },
   "afterStages" : [ {
-    "name" : "\"after each\" hook: codeceptjs.after",
+    "name" : "\"after all\" hook: codeceptjs.afterSuite",
     "time" : {
-      "start" : 1747001662194,
-      "stop" : 1747001662203,
-      "duration" : 9
+      "start" : 1747002136160,
+      "stop" : 1747002136160,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -263,11 +263,11 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "\"after all\" hook: codeceptjs.afterSuite",
+    "name" : "\"after each\" hook: codeceptjs.after",
     "time" : {
-      "start" : 1747001669115,
-      "stop" : 1747001669115,
-      "duration" : 0
+      "start" : 1747002128964,
+      "stop" : 1747002128972,
+      "duration" : 8
     },
     "status" : "passed",
     "steps" : [ ],
@@ -286,16 +286,16 @@
     "value" : "codeceptjs"
   }, {
     "name" : "host",
-    "value" : "fv-az1676-77"
+    "value" : "fv-az1371-844"
   }, {
     "name" : "thread",
-    "value" : "pid-6126-worker-main"
+    "value" : "pid-6125-worker-main"
   }, {
     "name" : "package",
     "value" : "features.mercado.feature"
   }, {
     "name" : "parentSuite",
-    "value" : "Funcionalidad de busqueda y navegacion en Mercado Libre"
+    "value" : "Validaciones en Mercado Libre"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -310,6 +310,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "87e509d3f5abc3b6.json",
+  "source" : "a15acc5387bd6a07.json",
   "parameterValues" : [ ]
 }
