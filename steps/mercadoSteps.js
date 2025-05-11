@@ -21,7 +21,7 @@ When('aplica un filtro de precio minimo de {int} y maximo de {int}', (min, max) 
   mercadoPage.applyPriceFilter(min, max);
 });
 
-Then('los productos deben estar dentro del rango de precios', async () => {
+Then('los productos deben estar dentro del rango', async () => {
   await mercadoPage.validatePricesInRange(10000, 16000);
 });
 

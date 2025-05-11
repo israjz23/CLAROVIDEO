@@ -9,7 +9,7 @@ Feature: Funcionalidad de busqueda y navegacion en Mercado Libre
   Scenario: Aplicar filtro de precio minimo y maximo
     Given el usuario ha buscado "celular"
     When aplica un filtro de precio minimo de 10000 y maximo de 16000
-    Then los productos deben estar dentro del rango de precios
+    Then los productos deben estar dentro del rango 
 
   Scenario: Ingresar a la pagina del primer resultado
     Given el usuario ha buscado "audifonos"
