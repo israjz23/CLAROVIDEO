@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "features": "codeceptjs run --grep @mercado --plugins allure",
+    "features": "codeceptjs run --features features/mercado.feature --plugins allure",
     "allure:generate": "allure generate output --clean",
     "allure:report": "allure open",
     "allure:serve": "npm run allure:generate && npm run allure:report"
