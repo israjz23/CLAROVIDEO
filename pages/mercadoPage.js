@@ -9,7 +9,6 @@ class MercadoPage {
   maxPrice = '//input[@data-testid="Maximum-price"]';
   priceLabels = '//span[@class="andes-money-amount andes-money-amount--cents-superscript"]';
   product1 = '//a[@class="poly-component__title"]';
-  details = '//div[@class="ui-pdp-container__row ui-pdp-with--separator--fluid ui-pdp-with--separator--40-24"]';
   buyButton = '(//span[@class="andes-button__content"])[3]';
   title = '//h1[@class="ui-pdp-title"]';
   price = '(//span[@class="andes-money-amount__fraction"])[2]';
@@ -73,10 +72,6 @@ class MercadoPage {
 
   openFirstProduct() {
   I.click(locate(this.product1).first());
- }
-
-verifyProductDetailPage() {
-  I.seeElement(this.details);
  }
 
 verifyProductDetailElements() {

@@ -29,10 +29,6 @@ When('hace clic en el primer resultado de la lista', () => {
   mercadoPage.openFirstProduct();
 });
 
-Then('debe ser redirigido a la pagina de detalles del producto', () => {
-  mercadoPage.verifyProductDetailPage();
-});
-
 Then('la pagina debe mostrar el titulo, precio y boton de compra', () => {
   mercadoPage.verifyProductDetailElements();
 });

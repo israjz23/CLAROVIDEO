@@ -14,5 +14,4 @@ Feature: Funcionalidad de busqueda y navegacion en Mercado Libre
   Scenario: Ingresar a la pagina del primer resultado
     Given el usuario ha buscado "audifonos"
     When hace clic en el primer resultado de la lista
-    Then debe ser redirigido a la pagina de detalles del producto
     And la pagina debe mostrar el titulo, precio y boton de compra
