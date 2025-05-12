@@ -1,22 +1,22 @@
 {
-  "uid" : "5656b54ad704008d",
+  "uid" : "b4bb5be9e34532cb",
   "name" : "Buscar un producto y ver resultados @mercado",
-  "fullName" : "features/mercado.feature: Validaciones en Mercado > Buscar un producto y ver resultados @mercado",
-  "historyId" : "3815a32b15fd4495bccc3c91f5773b29:d41d8cd98f00b204e9800998ecf8427e",
+  "fullName" : "features/mercado.feature: Validaciones en Mercado Libre > Buscar un producto y ver resultados @mercado",
+  "historyId" : "641c47418027612e1c06aeb7e46fef9b:d41d8cd98f00b204e9800998ecf8427e",
   "time" : {
-    "start" : 1747076285585,
-    "stop" : 1747076292050,
-    "duration" : 6465
+    "start" : 1747078112968,
+    "stop" : 1747078118440,
+    "duration" : 5472
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "\"before all\" hook: codeceptjs.beforeSuite",
+    "name" : "\"before each\" hook: codeceptjs.before",
     "time" : {
-      "start" : 1747076285359,
-      "stop" : 1747076285583,
-      "duration" : 224
+      "start" : 1747078112968,
+      "stop" : 1747078113070,
+      "duration" : 102
     },
     "status" : "passed",
     "steps" : [ ],
@@ -27,11 +27,11 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "\"before each\" hook: codeceptjs.before",
+    "name" : "\"before all\" hook: codeceptjs.beforeSuite",
     "time" : {
-      "start" : 1747076285586,
-      "stop" : 1747076285644,
-      "duration" : 58
+      "start" : 1747078108888,
+      "stop" : 1747078112966,
+      "duration" : 4078
     },
     "status" : "passed",
     "steps" : [ ],
@@ -47,8 +47,8 @@
     "steps" : [ {
       "name" : "Given el usuario esta en la pagina principal",
       "time" : {
-        "start" : 1747076285656,
-        "stop" : 1747076285657,
+        "start" : 1747078113082,
+        "stop" : 1747078113083,
         "duration" : 1
       },
       "status" : "passed",
@@ -62,8 +62,8 @@
     }, {
       "name" : "When busca el producto \"laptop\"",
       "time" : {
-        "start" : 1747076285660,
-        "stop" : 1747076285661,
+        "start" : 1747078113086,
+        "stop" : 1747078113087,
         "duration" : 1
       },
       "status" : "passed",
@@ -77,9 +77,9 @@
     }, {
       "name" : "Then se deben mostrar resultados relacionados con \"laptop\"",
       "time" : {
-        "start" : 1747076285663,
-        "stop" : 1747076292049,
-        "duration" : 6386
+        "start" : 1747078113089,
+        "stop" : 1747078118439,
+        "duration" : 5350
       },
       "status" : "passed",
       "steps" : [ ],
@@ -92,9 +92,9 @@
     }, {
       "name" : "I am on page \"/\"",
       "time" : {
-        "start" : 1747076285665,
-        "stop" : 1747076287064,
-        "duration" : 1399
+        "start" : 1747078113090,
+        "stop" : 1747078114715,
+        "duration" : 1625
       },
       "status" : "passed",
       "steps" : [ ],
@@ -107,9 +107,9 @@
     }, {
       "name" : "I wait for element \"//input[@id=\"cb1-edit\"]\", 10",
       "time" : {
-        "start" : 1747076287065,
-        "stop" : 1747076287195,
-        "duration" : 130
+        "start" : 1747078114716,
+        "stop" : 1747078114859,
+        "duration" : 143
       },
       "status" : "passed",
       "steps" : [ ],
@@ -122,9 +122,9 @@
     }, {
       "name" : "I fill field \"//input[@id=\"cb1-edit\"]\", \"laptop\"",
       "time" : {
-        "start" : 1747076287196,
-        "stop" : 1747076287478,
-        "duration" : 282
+        "start" : 1747078114859,
+        "stop" : 1747078115266,
+        "duration" : 407
       },
       "status" : "passed",
       "steps" : [ ],
@@ -137,9 +137,9 @@
     }, {
       "name" : "I click \"//button[@class=\"nav-search-btn\"]\"",
       "time" : {
-        "start" : 1747076287478,
-        "stop" : 1747076288738,
-        "duration" : 1260
+        "start" : 1747078115266,
+        "stop" : 1747078116411,
+        "duration" : 1145
       },
       "status" : "passed",
       "steps" : [ ],
@@ -152,9 +152,9 @@
     }, {
       "name" : "I grab text from all \"//a[@class=\"poly-component__title\"]\"",
       "time" : {
-        "start" : 1747076288738,
-        "stop" : 1747076292048,
-        "duration" : 3310
+        "start" : 1747078116411,
+        "stop" : 1747078118438,
+        "duration" : 2027
       },
       "status" : "passed",
       "steps" : [ ],
@@ -175,9 +175,9 @@
   "afterStages" : [ {
     "name" : "\"after each\" hook: codeceptjs.after",
     "time" : {
-      "start" : 1747076292053,
-      "stop" : 1747076292066,
-      "duration" : 13
+      "start" : 1747078118442,
+      "stop" : 1747078118451,
+      "duration" : 9
     },
     "status" : "passed",
     "steps" : [ ],
@@ -190,8 +190,8 @@
   }, {
     "name" : "\"after all\" hook: codeceptjs.afterSuite",
     "time" : {
-      "start" : 1747076308368,
-      "stop" : 1747076308368,
+      "start" : 1747078135163,
+      "stop" : 1747078135163,
       "duration" : 0
     },
     "status" : "passed",
@@ -211,10 +211,10 @@
     "value" : "codeceptjs"
   }, {
     "name" : "host",
-    "value" : "fv-az1046-282"
+    "value" : "fv-az1316-359"
   }, {
     "name" : "thread",
-    "value" : "pid-6080-worker-main"
+    "value" : "pid-6073-worker-main"
   }, {
     "name" : "package",
     "value" : "features.mercado.feature"
@@ -223,7 +223,7 @@
     "value" : "mercado"
   }, {
     "name" : "parentSuite",
-    "value" : "Validaciones en Mercado"
+    "value" : "Validaciones en Mercado Libre"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -238,6 +238,6 @@
     "categories" : [ ],
     "tags" : [ "mercado" ]
   },
-  "source" : "5656b54ad704008d.json",
+  "source" : "b4bb5be9e34532cb.json",
   "parameterValues" : [ ]
 }
