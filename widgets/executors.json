@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://israjz23.github.io/CLAROVIDEO",
+  "buildOrder" : 42,
+  "buildName" : "GitHub Actions Run #14980941059",
+  "buildUrl" : "https://github.com/israjz23/CLAROVIDEO/actions/runs/14980941059",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://israjz23.github.io/CLAROVIDEO/42/"
+} ]

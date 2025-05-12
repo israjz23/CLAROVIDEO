@@ -1,0 +1,48 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "Validaciones en Mercado Libre",
+    "children" : [ {
+      "name" : "Buscar un producto y ver resultados @mercado",
+      "uid" : "cc4ece25b5eb01ea",
+      "parentUid" : "77b8349b4926996be1be748d526917eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1747078437713,
+        "stop" : 1747078444345,
+        "duration" : 6632
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Aplicar filtro de precio minimo y maximo",
+      "uid" : "4588187cb3aa08ac",
+      "parentUid" : "77b8349b4926996be1be748d526917eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1747078444358,
+        "stop" : 1747078454431,
+        "duration" : 10073
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Ingresar a la pagina del primer resultado",
+      "uid" : "9ca66a092ecd3bbb",
+      "parentUid" : "77b8349b4926996be1be748d526917eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1747078454445,
+        "stop" : 1747078460952,
+        "duration" : 6507
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "77b8349b4926996be1be748d526917eb"
+  } ],
+  "name" : "suites"
+}

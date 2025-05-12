@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon May 12 19:33:57 GMT 2025","Mon May 12 19:34:04 GMT 2025","6632","Validaciones en Mercado Libre","","","","","Buscar un producto y ver resultados @mercado",""
+"passed","Mon May 12 19:34:14 GMT 2025","Mon May 12 19:34:20 GMT 2025","6507","Validaciones en Mercado Libre","","","","","Ingresar a la pagina del primer resultado",""
+"passed","Mon May 12 19:34:04 GMT 2025","Mon May 12 19:34:14 GMT 2025","10073","Validaciones en Mercado Libre","","","","","Aplicar filtro de precio minimo y maximo",""

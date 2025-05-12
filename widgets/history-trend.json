@@ -1,0 +1,13 @@
+[ {
+  "buildOrder" : 42,
+  "reportUrl" : "https://israjz23.github.io/CLAROVIDEO/42/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "failed" : 0,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 3,
+    "unknown" : 0,
+    "total" : 3
+  }
+} ]
