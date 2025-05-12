@@ -43,7 +43,7 @@ jobs:
         with:
           personal_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: output/allure-report
-          publish_branch: main
+          publish_branch: gh-pages
 
       - name: Get Allure history
         uses: actions/checkout@v3
