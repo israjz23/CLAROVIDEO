@@ -1,4 +1,4 @@
-Feature: Validaciones en Mercado Libre
+Feature: Validaciones en Mercado 
 @mercado
 
   Scenario: Buscar un producto y ver resultados
