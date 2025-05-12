@@ -1,52 +1,52 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
-    "name" : "fv-az1371-844",
+    "name" : "fv-az1046-282",
     "children" : [ {
-      "name" : "pid-6125-worker-main",
+      "name" : "pid-6080-worker-main",
       "children" : [ {
-        "name" : "Aplicar filtro de precio minimo y maximo",
-        "uid" : "a15acc5387bd6a07",
-        "parentUid" : "a82f1480dc0e490ea616975d62738950",
+        "name" : "Buscar un producto y ver resultados @mercado",
+        "uid" : "5656b54ad704008d",
+        "parentUid" : "08e3d52ce2b19e9b25181304b1013df2",
         "status" : "passed",
         "time" : {
-          "start" : 1747002118376,
-          "stop" : 1747002128963,
-          "duration" : 10587
+          "start" : 1747076285585,
+          "stop" : 1747076292050,
+          "duration" : 6465
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Ingresar a la pagina del primer resultado",
-        "uid" : "74e9492f1ada21a4",
-        "parentUid" : "a82f1480dc0e490ea616975d62738950",
+        "uid" : "7b19dd5e4c213030",
+        "parentUid" : "08e3d52ce2b19e9b25181304b1013df2",
         "status" : "passed",
         "time" : {
-          "start" : 1747002128973,
-          "stop" : 1747002136144,
-          "duration" : 7171
+          "start" : 1747076302146,
+          "stop" : 1747076308360,
+          "duration" : 6214
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "Buscar un producto y ver resultados @mercado",
-        "uid" : "a3a8d26e7955a6e9",
-        "parentUid" : "a82f1480dc0e490ea616975d62738950",
+        "name" : "Aplicar filtro de precio minimo y maximo",
+        "uid" : "f6ed2231e3eb035e",
+        "parentUid" : "08e3d52ce2b19e9b25181304b1013df2",
         "status" : "passed",
         "time" : {
-          "start" : 1747002111228,
-          "stop" : 1747002118359,
-          "duration" : 7131
+          "start" : 1747076292067,
+          "stop" : 1747076302138,
+          "duration" : 10071
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "a82f1480dc0e490ea616975d62738950"
+      "uid" : "08e3d52ce2b19e9b25181304b1013df2"
     } ],
-    "uid" : "e033577cb615db36531b952456ebb790"
+    "uid" : "dd947b0d583f4d7d09cc30100805227a"
   } ],
   "name" : "timeline"
 }

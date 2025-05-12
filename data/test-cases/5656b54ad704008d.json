@@ -1,12 +1,12 @@
 {
-  "uid" : "74e9492f1ada21a4",
-  "name" : "Ingresar a la pagina del primer resultado",
-  "fullName" : "features/mercado.feature: Validaciones en Mercado Libre > Ingresar a la pagina del primer resultado",
-  "historyId" : "364f6982421f3496ebb4bd4f49e10545:d41d8cd98f00b204e9800998ecf8427e",
+  "uid" : "5656b54ad704008d",
+  "name" : "Buscar un producto y ver resultados @mercado",
+  "fullName" : "features/mercado.feature: Validaciones en Mercado > Buscar un producto y ver resultados @mercado",
+  "historyId" : "3815a32b15fd4495bccc3c91f5773b29:d41d8cd98f00b204e9800998ecf8427e",
   "time" : {
-    "start" : 1747002128973,
-    "stop" : 1747002136144,
-    "duration" : 7171
+    "start" : 1747076285585,
+    "stop" : 1747076292050,
+    "duration" : 6465
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,9 +14,9 @@
   "beforeStages" : [ {
     "name" : "\"before all\" hook: codeceptjs.beforeSuite",
     "time" : {
-      "start" : 1747002110953,
-      "stop" : 1747002111226,
-      "duration" : 273
+      "start" : 1747076285359,
+      "stop" : 1747076285583,
+      "duration" : 224
     },
     "status" : "passed",
     "steps" : [ ],
@@ -29,9 +29,9 @@
   }, {
     "name" : "\"before each\" hook: codeceptjs.before",
     "time" : {
-      "start" : 1747002128973,
-      "stop" : 1747002129007,
-      "duration" : 34
+      "start" : 1747076285586,
+      "stop" : 1747076285644,
+      "duration" : 58
     },
     "status" : "passed",
     "steps" : [ ],
@@ -45,10 +45,10 @@
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
-      "name" : "Given el usuario ha buscado \"audifonos\"",
+      "name" : "Given el usuario esta en la pagina principal",
       "time" : {
-        "start" : 1747002129011,
-        "stop" : 1747002129012,
+        "start" : 1747076285656,
+        "stop" : 1747076285657,
         "duration" : 1
       },
       "status" : "passed",
@@ -60,11 +60,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "When hace clic en el primer resultado de la lista",
+      "name" : "When busca el producto \"laptop\"",
       "time" : {
-        "start" : 1747002129014,
-        "stop" : 1747002129020,
-        "duration" : 6
+        "start" : 1747076285660,
+        "stop" : 1747076285661,
+        "duration" : 1
       },
       "status" : "passed",
       "steps" : [ ],
@@ -75,11 +75,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "And la pagina debe mostrar el titulo, precio y boton de compra",
+      "name" : "Then se deben mostrar resultados relacionados con \"laptop\"",
       "time" : {
-        "start" : 1747002129023,
-        "stop" : 1747002136144,
-        "duration" : 7121
+        "start" : 1747076285663,
+        "stop" : 1747076292049,
+        "duration" : 6386
       },
       "status" : "passed",
       "steps" : [ ],
@@ -92,9 +92,9 @@
     }, {
       "name" : "I am on page \"/\"",
       "time" : {
-        "start" : 1747002129024,
-        "stop" : 1747002130332,
-        "duration" : 1308
+        "start" : 1747076285665,
+        "stop" : 1747076287064,
+        "duration" : 1399
       },
       "status" : "passed",
       "steps" : [ ],
@@ -107,9 +107,9 @@
     }, {
       "name" : "I wait for element \"//input[@id=\"cb1-edit\"]\", 10",
       "time" : {
-        "start" : 1747002130333,
-        "stop" : 1747002130638,
-        "duration" : 305
+        "start" : 1747076287065,
+        "stop" : 1747076287195,
+        "duration" : 130
       },
       "status" : "passed",
       "steps" : [ ],
@@ -120,11 +120,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "I fill field \"//input[@id=\"cb1-edit\"]\", \"audifonos\"",
+      "name" : "I fill field \"//input[@id=\"cb1-edit\"]\", \"laptop\"",
       "time" : {
-        "start" : 1747002130638,
-        "stop" : 1747002131132,
-        "duration" : 494
+        "start" : 1747076287196,
+        "stop" : 1747076287478,
+        "duration" : 282
       },
       "status" : "passed",
       "steps" : [ ],
@@ -137,9 +137,9 @@
     }, {
       "name" : "I click \"//button[@class=\"nav-search-btn\"]\"",
       "time" : {
-        "start" : 1747002131132,
-        "stop" : 1747002134090,
-        "duration" : 2958
+        "start" : 1747076287478,
+        "stop" : 1747076288738,
+        "duration" : 1260
       },
       "status" : "passed",
       "steps" : [ ],
@@ -150,56 +150,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "I click {xpath: (//a[@class=\"poly-component__title\"])[position()=1]}",
+      "name" : "I grab text from all \"//a[@class=\"poly-component__title\"]\"",
       "time" : {
-        "start" : 1747002134090,
-        "stop" : 1747002135969,
-        "duration" : 1879
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "I see element \"//h1[@class=\"ui-pdp-title\"]\"",
-      "time" : {
-        "start" : 1747002135969,
-        "stop" : 1747002136083,
-        "duration" : 114
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "I see element \"(//span[@class=\"andes-money-amount__fraction\"])[2]\"",
-      "time" : {
-        "start" : 1747002136084,
-        "stop" : 1747002136107,
-        "duration" : 23
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "I see element \"(//span[@class=\"andes-button__content\"])[3]\"",
-      "time" : {
-        "start" : 1747002136107,
-        "stop" : 1747002136144,
-        "duration" : 37
+        "start" : 1747076288738,
+        "stop" : 1747076292048,
+        "duration" : 3310
       },
       "status" : "passed",
       "steps" : [ ],
@@ -212,7 +167,7 @@
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 11,
+    "stepsCount" : 8,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
     "hasContent" : true
@@ -220,9 +175,9 @@
   "afterStages" : [ {
     "name" : "\"after each\" hook: codeceptjs.after",
     "time" : {
-      "start" : 1747002136145,
-      "stop" : 1747002136159,
-      "duration" : 14
+      "start" : 1747076292053,
+      "stop" : 1747076292066,
+      "duration" : 13
     },
     "status" : "passed",
     "steps" : [ ],
@@ -235,8 +190,8 @@
   }, {
     "name" : "\"after all\" hook: codeceptjs.afterSuite",
     "time" : {
-      "start" : 1747002136160,
-      "stop" : 1747002136160,
+      "start" : 1747076308368,
+      "stop" : 1747076308368,
       "duration" : 0
     },
     "status" : "passed",
@@ -256,16 +211,19 @@
     "value" : "codeceptjs"
   }, {
     "name" : "host",
-    "value" : "fv-az1371-844"
+    "value" : "fv-az1046-282"
   }, {
     "name" : "thread",
-    "value" : "pid-6125-worker-main"
+    "value" : "pid-6080-worker-main"
   }, {
     "name" : "package",
     "value" : "features.mercado.feature"
   }, {
+    "name" : "tag",
+    "value" : "mercado"
+  }, {
     "name" : "parentSuite",
-    "value" : "Validaciones en Mercado Libre"
+    "value" : "Validaciones en Mercado"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -278,8 +236,8 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
-    "tags" : [ ]
+    "tags" : [ "mercado" ]
   },
-  "source" : "74e9492f1ada21a4.json",
+  "source" : "5656b54ad704008d.json",
   "parameterValues" : [ ]
 }

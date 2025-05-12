@@ -1,48 +1,48 @@
 {
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
   "children" : [ {
-    "name" : "Validaciones en Mercado Libre",
+    "name" : "Validaciones en Mercado",
     "children" : [ {
       "name" : "Buscar un producto y ver resultados @mercado",
-      "uid" : "a3a8d26e7955a6e9",
-      "parentUid" : "77b8349b4926996be1be748d526917eb",
+      "uid" : "5656b54ad704008d",
+      "parentUid" : "e1d1cfd47be04d80b4953ba332ba1e53",
       "status" : "passed",
       "time" : {
-        "start" : 1747002111228,
-        "stop" : 1747002118359,
-        "duration" : 7131
+        "start" : 1747076285585,
+        "stop" : 1747076292050,
+        "duration" : 6465
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "Aplicar filtro de precio minimo y maximo",
-      "uid" : "a15acc5387bd6a07",
-      "parentUid" : "77b8349b4926996be1be748d526917eb",
+      "uid" : "f6ed2231e3eb035e",
+      "parentUid" : "e1d1cfd47be04d80b4953ba332ba1e53",
       "status" : "passed",
       "time" : {
-        "start" : 1747002118376,
-        "stop" : 1747002128963,
-        "duration" : 10587
+        "start" : 1747076292067,
+        "stop" : 1747076302138,
+        "duration" : 10071
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "Ingresar a la pagina del primer resultado",
-      "uid" : "74e9492f1ada21a4",
-      "parentUid" : "77b8349b4926996be1be748d526917eb",
+      "uid" : "7b19dd5e4c213030",
+      "parentUid" : "e1d1cfd47be04d80b4953ba332ba1e53",
       "status" : "passed",
       "time" : {
-        "start" : 1747002128973,
-        "stop" : 1747002136144,
-        "duration" : 7171
+        "start" : 1747076302146,
+        "stop" : 1747076308360,
+        "duration" : 6214
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     } ],
-    "uid" : "77b8349b4926996be1be748d526917eb"
+    "uid" : "e1d1cfd47be04d80b4953ba332ba1e53"
   } ],
   "name" : "suites"
 }
